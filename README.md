@@ -59,11 +59,11 @@ python MultiParamsVisualizer.py
    - Enter the value
    - Click "Add Data Point"
 
-3. The data will be automatically saved to `medical_data.csv` in the same directory.
+3. The data will be automatically saved to `stored_data.csv` in the same directory.
 
 ## Data Storage
 
-All data is stored in a CSV file (`medical_data.csv`) with the following columns:
+All data is stored in a CSV file (`stored_data.csv`) with the following columns:
 - Date: The date of the measurement
 - Value: The measured value
 - Parameter: The type of measurement
