@@ -1,0 +1,5 @@
+kivy==2.2.1
+kivy-garden.matplotlib==0.1.0
+matplotlib==3.8.2
+pandas==2.1.4
+numpy==1.26.3 
