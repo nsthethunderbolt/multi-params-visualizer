@@ -7,6 +7,7 @@ import pandas as pd
 import os
 import numpy as np
 import json
+import sys
 
 class MultiParamsVisualizer:
     def __init__(self, root):
@@ -16,14 +17,17 @@ class MultiParamsVisualizer:
         # Data storage
         self.data = {'Date': [], 'Value': [], 'Parameter': []}
         
-        # File paths
-        self.data_file = 'medical_data.csv'
-        self.params_file = 'parameters.json'
+        # Get the directory where the script is located
+        self.script_dir = os.path.dirname(os.path.abspath(__file__))
+        
+        # File paths using absolute paths
+        self.data_file = os.path.join(self.script_dir, 'medical_data.csv')
+        self.params_file = os.path.join(self.script_dir, 'parameters.json')
         
         # Load parameters
         self.parameters = self.load_parameters()
         if not self.parameters:
-            messagebox.showerror("Error", "Failed to load parameters. Application will exit.")
+            messagebox.showerror("Error", f"Failed to load parameters from {self.params_file}. Application will exit.")
             self.root.destroy()
             return
         
@@ -70,7 +74,10 @@ class MultiParamsVisualizer:
     def load_parameters(self):
         try:
             if not os.path.exists(self.params_file):
-                messagebox.showerror("Error", f"Parameters file '{self.params_file}' not found.")
+                error_msg = f"Parameters file not found at: {self.params_file}\n"
+                error_msg += f"Current working directory: {os.getcwd()}\n"
+                error_msg += f"Script directory: {self.script_dir}"
+                messagebox.showerror("Error", error_msg)
                 return None
                 
             with open(self.params_file, 'r') as f:
