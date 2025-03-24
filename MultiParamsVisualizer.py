@@ -21,7 +21,7 @@ class MultiParamsVisualizer:
         self.script_dir = os.path.dirname(os.path.abspath(__file__))
         
         # File paths using absolute paths
-        self.data_file = os.path.join(self.script_dir, 'medical_data.csv')
+        self.data_file = os.path.join(self.script_dir, 'stored_data.csv')
         self.params_file = os.path.join(self.script_dir, 'parameters.json')
         
         # Load parameters
