@@ -7,10 +7,10 @@ import pandas as pd
 import os
 import numpy as np
 
-class MedicalParameterVisualizer:
+class MultiParamsVisualizer:
     def __init__(self, root):
         self.root = root
-        self.root.title("Medical Parameters Visualization")
+        self.root.title("Multi Parameters Visualization")
         
         # Data storage
         self.data = {'Date': [], 'Value': [], 'Parameter': []}
@@ -179,5 +179,5 @@ class MedicalParameterVisualizer:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = MedicalParameterVisualizer(root)
+    app = MultiParamsVisualizer(root)
     root.mainloop()

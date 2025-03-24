@@ -1,19 +1,19 @@
-# Medical Parameter Visualizer
+# Multi Parameters Visualizer
 
-A Python-based desktop application for tracking and visualizing various medical parameters over time. This tool helps you monitor your health metrics with visual indicators for normal and abnormal ranges.
+A Python-based desktop application for tracking and visualizing various parameters over time. This tool helps you monitor multiple parameters with visual indicators for normal and abnormal ranges.
 
 ## Features
 
-- Track multiple medical parameters simultaneously
+- Track multiple parameters simultaneously
 - Visual representation of data with separate graphs for each parameter
 - Color-coded data points (green for normal range, red for abnormal)
 - Automatic data persistence using CSV storage
-- Pre-defined normal ranges for common medical parameters
+- Pre-defined normal ranges for common parameters
 - Easy-to-use interface with dropdown selection
 
 ## Available Parameters
 
-The application includes the following medical parameters with their normal ranges:
+The application includes the following parameters with their normal ranges:
 
 - Vitamin D (20-50 ng/mL)
 - Blood Pressure (Systolic: 90-120 mmHg)
@@ -37,8 +37,8 @@ The application includes the following medical parameters with their normal rang
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/medical-parameter-visualizer.git
-cd medical-parameter-visualizer
+git clone https://github.com/yourusername/multi-params-visualizer.git
+cd multi-params-visualizer
 ```
 
 2. Install the required packages:
@@ -50,7 +50,7 @@ pip install matplotlib pandas numpy
 
 1. Run the application:
 ```bash
-python MedicalParameterVisualizer.py
+python MultiParamsVisualizer.py
 ```
 
 2. To add a new data point:
