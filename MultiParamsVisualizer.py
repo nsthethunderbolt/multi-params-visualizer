@@ -6,6 +6,7 @@ from datetime import datetime
 import pandas as pd
 import os
 import numpy as np
+import json
 
 class MultiParamsVisualizer:
     def __init__(self, root):
@@ -15,23 +16,19 @@ class MultiParamsVisualizer:
         # Data storage
         self.data = {'Date': [], 'Value': [], 'Parameter': []}
         
-        # File path for data storage
+        # File paths
         self.data_file = 'medical_data.csv'
+        self.params_file = 'parameters.json'
+        
+        # Load parameters
+        self.parameters = self.load_parameters()
+        if not self.parameters:
+            messagebox.showerror("Error", "Failed to load parameters. Application will exit.")
+            self.root.destroy()
+            return
         
         # Load existing data if available
         self.load_data()
-        
-        # Available parameters with their units and normal ranges
-        self.parameters = {
-            'Vitamin D': {'unit': 'ng/mL', 'min': 20, 'max': 50},
-            'Blood Pressure (Systolic)': {'unit': 'mmHg', 'min': 90, 'max': 120},
-            'Blood Pressure (Diastolic)': {'unit': 'mmHg', 'min': 60, 'max': 80},
-            'Blood Sugar': {'unit': 'mg/dL', 'min': 70, 'max': 100},
-            'Cholesterol': {'unit': 'mg/dL', 'min': 125, 'max': 200},
-            'Hemoglobin': {'unit': 'g/dL', 'min': 13.5, 'max': 17.5},
-            'TSH': {'unit': 'µIU/mL', 'min': 0.4, 'max': 4.0},
-            'Creatinine': {'unit': 'mg/dL', 'min': 0.6, 'max': 1.2}
-        }
         
         # Create input frame
         self.input_frame = ttk.Frame(root, padding="10")
@@ -69,6 +66,28 @@ class MultiParamsVisualizer:
         
         # Bind window close event to save data
         self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
+
+    def load_parameters(self):
+        try:
+            if not os.path.exists(self.params_file):
+                messagebox.showerror("Error", f"Parameters file '{self.params_file}' not found.")
+                return None
+                
+            with open(self.params_file, 'r') as f:
+                data = json.load(f)
+                
+            if 'parameters' not in data:
+                messagebox.showerror("Error", "Invalid parameters file format.")
+                return None
+                
+            return data['parameters']
+            
+        except json.JSONDecodeError:
+            messagebox.showerror("Error", "Invalid JSON format in parameters file.")
+            return None
+        except Exception as e:
+            messagebox.showerror("Error", f"Error loading parameters: {str(e)}")
+            return None
 
     def load_data(self):
         try:
