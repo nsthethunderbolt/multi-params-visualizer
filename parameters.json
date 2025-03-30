@@ -39,6 +39,16 @@
             "unit": "mg/dL",
             "min": 0.6,
             "max": 1.2
+        },
+        "CK": {
+            "unit": "U/L",
+            "min": 21,
+            "max": 232
+        },
+        "C4 Complement": {
+            "unit": "mg/dL",
+            "min": 13,
+            "max": 46
         }
     }
 } 
