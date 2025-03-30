@@ -9,20 +9,8 @@ A Python-based desktop application for tracking and visualizing various paramete
 - Color-coded data points (green for normal range, red for abnormal)
 - Automatic data persistence using CSV storage
 - Pre-defined normal ranges for common parameters
+- Parameters controlled by a JSON file
 - Easy-to-use interface with dropdown selection
-
-## Available Parameters
-
-The application includes the following parameters with their normal ranges:
-
-- Vitamin D (20-50 ng/mL)
-- Blood Pressure (Systolic: 90-120 mmHg)
-- Blood Pressure (Diastolic: 60-80 mmHg)
-- Blood Sugar (70-100 mg/dL)
-- Cholesterol (125-200 mg/dL)
-- Hemoglobin (13.5-17.5 g/dL)
-- TSH (0.4-4.0 µIU/mL)
-- Creatinine (0.6-1.2 mg/dL)
 
 ## Requirements
 
