@@ -2,6 +2,10 @@ import os
 import json
 from tkinter import messagebox
 
+# ParamStore class to manage parameter loading
+# This class handles the loading of parameters from a JSON file.
+# It checks for the existence of the file and validates its format.
+# It also provides methods to load parameters and handle errors.
 class ParamStore:
         def __init__(self, params_file):
              self.params_file = params_file

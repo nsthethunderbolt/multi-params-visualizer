@@ -5,6 +5,9 @@ from DataStore import DataStore
 from ParamStore import ParamStore
 from UI import UI
 
+# MultiParamsVisualizer.py
+# Main application class
+# This class initializes the application, loads parameters, and sets up the UI.
 class MultiParamsVisualizer:
     def __init__(self, root):
         self.ds=DataStore()

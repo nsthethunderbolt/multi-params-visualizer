@@ -2,9 +2,11 @@ import pandas as pd
 import os
 from tkinter import messagebox
 
+# DataStore class to manage data loading and saving
+# This class handles the loading and saving of data to a CSV file.
 class DataStore:
     def __init__(self):
-          # Data storage
+          # Data storage json
         self.data = {'Date': [], 'Value': [], 'Parameter': []}
     def load_data(self,data_file):
         self.data_file = data_file

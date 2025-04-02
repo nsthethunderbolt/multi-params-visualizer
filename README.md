@@ -1,6 +1,6 @@
 # Multi Parameters Visualizer
 
-A Python-based desktop application for tracking and visualizing various parameters over time. This tool helps you monitor multiple parameters with visual indicators for normal and abnormal ranges.
+A Python-based desktop application for tracking and visualizing various parameters over time. This tool helps you monitor multiple parameters with visual indicators for normal and abnormal ranges. Developed using cursor AI.
 
 ## Features
 
