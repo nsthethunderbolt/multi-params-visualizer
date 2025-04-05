@@ -20,14 +20,22 @@ class MultiParamsVisualizer:
         params_file = os.path.join(self.script_dir, 'parameters.json')
         self.ps=ParamStore(params_file)
         # Load parameters
-        self.ps.load_parameters()
+        ret = self.ps.load_parameters()
+        if ret[0] == False:
+            messagebox.showerror("Error", ret[1])
+            self.root.destroy()
+            return
         if not self.ps.parameters:
             messagebox.showerror("Error", f"Failed to load parameters from {self.ps.params_file}. Application will exit.")
             self.root.destroy()
             return
         
         # Load existing data if available
-        self.ds.load_data(data_file)
+        ret = self.ds.load_data(data_file)
+        if ret[0] == False:
+            messagebox.showerror("Error", ret[1])
+            self.root.destroy()
+            return
         self.ui=UI(root, "Multi-Parameter Visualizer", self.ds,self.ps)
         
        
