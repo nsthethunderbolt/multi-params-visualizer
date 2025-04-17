@@ -1,54 +1,504 @@
 {
     "parameters": {
-        "Vitamin D": {
-            "unit": "ng/mL",
-            "min": 20,
-            "max": 50
+        "@colspan": {
+            "unit": "",
+            "min": 0,
+            "max": 0
         },
-        "Blood Pressure (Systolic)": {
-            "unit": "mmHg",
-            "min": 90,
-            "max": 120
-        },
-        "Blood Pressure (Diastolic)": {
-            "unit": "mmHg",
-            "min": 60,
-            "max": 80
-        },
-        "Blood Sugar": {
-            "unit": "mg/dL",
-            "min": 70,
-            "max": 100
-        },
-        "Cholesterol": {
-            "unit": "mg/dL",
-            "min": 125,
-            "max": 200
-        },
-        "Hemoglobin": {
-            "unit": "g/dL",
-            "min": 13.5,
-            "max": 17.5
-        },
-        "TSH": {
-            "unit": "µIU/mL",
-            "min": 0.4,
-            "max": 4.0
-        },
-        "Creatinine": {
-            "unit": "mg/dL",
-            "min": 0.6,
-            "max": 1.2
-        },
-        "CK": {
+        "ALT": {
             "unit": "U/L",
-            "min": 21,
-            "max": 232
+            "min": "10",
+            "max": "50"
+        },
+        "ANC": {
+            "unit": "10*3/uL",
+            "min": "1.60",
+            "max": "7.30"
+        },
+        "AST": {
+            "unit": "U/L",
+            "min": "21",
+            "max": "44"
+        },
+        "Albumin": {
+            "unit": "g/dL",
+            "min": "3.5",
+            "max": "4.8"
+        },
+        "Alkaline Phosphatase": {
+            "unit": "U/L",
+            "min": "130",
+            "max": "325"
+        },
+        "Anion Gap": {
+            "unit": "meq/L",
+            "min": "7",
+            "max": "16"
+        },
+        "Anisocytosis": {
+            "unit": "",
+            "min": 0,
+            "max": 0
+        },
+        "Anti-AAVRh74": {
+            "unit": "",
+            "min": 0,
+            "max": 0
+        },
+        "Atrial Rate": {
+            "unit": "",
+            "min": "BPM",
+            "max": "BPM"
+        },
+        "Atypical Lymphocytes": {
+            "unit": "",
+            "min": "%",
+            "max": "%"
+        },
+        "Auto IG%": {
+            "unit": "%",
+            "min": "0.0",
+            "max": "1.6"
+        },
+        "BNP": {
+            "unit": "pg/mL",
+            "min": "10.0",
+            "max": "120.0"
+        },
+        "BUN, Bld": {
+            "unit": "mg/dL",
+            "min": "5",
+            "max": "18"
+        },
+        "Bands": {
+            "unit": "%",
+            "min": "0.0",
+            "max": "11.0"
+        },
+        "Basophils": {
+            "unit": "%",
+            "min": "0.0",
+            "max": "2.0"
+        },
+        "Basophils, Absolute": {
+            "unit": "10*3/uL",
+            "min": "0.00",
+            "max": "0.30"
+        },
+        "Bilirubin, Direct": {
+            "unit": "mg/dL",
+            "min": "0.1",
+            "max": "0.3"
+        },
+        "C3 Complement": {
+            "unit": "mg/dL",
+            "min": "80.0",
+            "max": "173.0"
         },
         "C4 Complement": {
             "unit": "mg/dL",
-            "min": 13,
-            "max": 46
+            "min": "13.0",
+            "max": "46.0"
+        },
+        "CO2": {
+            "unit": "meq/L",
+            "min": "18",
+            "max": "31"
+        },
+        "Calcium": {
+            "unit": "mg/dL",
+            "min": "8.0",
+            "max": "11.0"
+        },
+        "Calcium, Ion": {
+            "unit": "mmol/L",
+            "min": "1.12",
+            "max": "1.32"
+        },
+        "Capillary": {
+            "unit": "",
+            "min": "Yes",
+            "max": "Yes"
+        },
+        "Chloride": {
+            "unit": "meq/L",
+            "min": "98",
+            "max": "106"
+        },
+        "Creatinine": {
+            "unit": "mg/dL",
+            "min": "0.20",
+            "max": "0.50"
+        },
+        "Cystatin C": {
+            "unit": "mg/L",
+            "min": "0.60",
+            "max": "1.60"
+        },
+        "Diagnosis": {
+            "unit": "",
+            "min": 0,
+            "max": 0
+        },
+        "Eosinophils": {
+            "unit": "%",
+            "min": "0.0",
+            "max": "5.0"
+        },
+        "Eosinophils, Absolute": {
+            "unit": "10*3/uL",
+            "min": "0.00",
+            "max": "0.70"
+        },
+        "Ferritin": {
+            "unit": "ng/mL",
+            "min": "5.3",
+            "max": "99.9"
+        },
+        "GGT": {
+            "unit": "U/L",
+            "min": "7",
+            "max": "22"
+        },
+        "Glucose Random": {
+            "unit": "mg/dL",
+            "min": "60",
+            "max": "106"
+        },
+        "Hematocrit": {
+            "unit": "%",
+            "min": "34.0",
+            "max": "44.0"
+        },
+        "Hemoglobin A1C": {
+            "unit": "",
+            "min": -1,
+            "max": 5.7
+        },
+        "Hgb": {
+            "unit": "g/dL",
+            "min": "11.3",
+            "max": "14.6"
+        },
+        "Hgb A %": {
+            "unit": "%",
+            "min": "95.0",
+            "max": "100.0"
+        },
+        "Hgb A2 %": {
+            "unit": "%",
+            "min": "1.5",
+            "max": "3.7"
+        },
+        "Hgb F %": {
+            "unit": "%",
+            "min": "0.0",
+            "max": "2.0"
+        },
+        "High-Sensitivity Troponin I": {
+            "unit": "",
+            "min": -1,
+            "max": 30.9
+        },
+        "Hypochromia": {
+            "unit": "",
+            "min": 0,
+            "max": 0
+        },
+        "IEF": {
+            "unit": "",
+            "min": 0,
+            "max": 0
+        },
+        "INR": {
+            "unit": "",
+            "min": "0.9 - 1.2",
+            "max": "0.9 - 1.2"
+        },
+        "Iron": {
+            "unit": "ug/dL",
+            "min": "50",
+            "max": "120"
+        },
+        "Lipase": {
+            "unit": "U/L",
+            "min": "4",
+            "max": "61"
+        },
+        "Lymphocytes": {
+            "unit": "%",
+            "min": "27.0",
+            "max": "57.0"
+        },
+        "Lymphocytes, Absolute": {
+            "unit": "10*3/uL",
+            "min": "1.40",
+            "max": "7.70"
+        },
+        "MCH": {
+            "unit": "pg",
+            "min": "26.0",
+            "max": "34.0"
+        },
+        "MCHC": {
+            "unit": "g/dL",
+            "min": "33.0",
+            "max": "37.0"
+        },
+        "MCV": {
+            "unit": "fL",
+            "min": "73.5",
+            "max": "87.0"
+        },
+        "MPV": {
+            "unit": "fL",
+            "min": "9.0",
+            "max": "10.9"
+        },
+        "Magnesium": {
+            "unit": "mg/dL",
+            "min": "1.6",
+            "max": "2.5"
+        },
+        "Microcytes": {
+            "unit": "",
+            "min": 0,
+            "max": 0
+        },
+        "Monocytes": {
+            "unit": "%",
+            "min": "0.0",
+            "max": "10.0"
+        },
+        "Monocytes, Absolute": {
+            "unit": "10*3/uL",
+            "min": "0.00",
+            "max": "1.10"
+        },
+        "Myelocytes": {
+            "unit": "",
+            "min": "%",
+            "max": "%"
+        },
+        "NRBCs/100": {
+            "unit": "",
+            "min": "/100 {WBC}",
+            "max": "/100 {WBC}"
+        },
+        "Neutrophils": {
+            "unit": "%",
+            "min": "32.0",
+            "max": "54.0"
+        },
+        "Neutrophils, Absolute": {
+            "unit": "10*3/uL",
+            "min": "1.60",
+            "max": "7.30"
+        },
+        "Ovalocytes": {
+            "unit": "",
+            "min": 0,
+            "max": 0
+        },
+        "P-R Interval": {
+            "unit": "",
+            "min": "ms",
+            "max": "ms"
+        },
+        "PTT": {
+            "unit": "s",
+            "min": "21.3",
+            "max": "38.8"
+        },
+        "Pathologist Interp": {
+            "unit": "",
+            "min": 0,
+            "max": 0
+        },
+        "Phosphorus": {
+            "unit": "mg/dL",
+            "min": "3.8",
+            "max": "6.8"
+        },
+        "Platelet": {
+            "unit": "10*3/uL",
+            "min": "150",
+            "max": "550"
+        },
+        "Polychromasia": {
+            "unit": "",
+            "min": 0,
+            "max": 0
+        },
+        "Potassium": {
+            "unit": "meq/L",
+            "min": "3.5",
+            "max": "5.0"
+        },
+        "Prior Transfusion?": {
+            "unit": "",
+            "min": 0,
+            "max": 0
+        },
+        "Protime": {
+            "unit": "s",
+            "min": "12.0",
+            "max": "15.3"
+        },
+        "Q-T Interval": {
+            "unit": "",
+            "min": "ms",
+            "max": "ms"
+        },
+        "QRS Duration": {
+            "unit": "",
+            "min": "ms",
+            "max": "ms"
+        },
+        "QTc Calculation(Bazett)": {
+            "unit": "",
+            "min": "ms",
+            "max": "ms"
+        },
+        "QTc Fredericia": {
+            "unit": "",
+            "min": "ms",
+            "max": "ms"
+        },
+        "QuantiFERON Mitogen minus NIL": {
+            "unit": "",
+            "min": "IU/mL",
+            "max": "IU/mL"
+        },
+        "QuantiFERON NIL": {
+            "unit": "",
+            "min": "IU/mL",
+            "max": "IU/mL"
+        },
+        "Quantiferon Plus TB1 minus NIL": {
+            "unit": "",
+            "min": -1,
+            "max": 0.34
+        },
+        "Quantiferon Plus TB2 minus NIL": {
+            "unit": "",
+            "min": -1,
+            "max": 0.34
+        },
+        "Quantiferon TB Gold Plus": {
+            "unit": "",
+            "min": "Negative",
+            "max": "Negative"
+        },
+        "RBC": {
+            "unit": "10*6/uL",
+            "min": "3.90",
+            "max": "5.30"
+        },
+        "RDW": {
+            "unit": "%",
+            "min": "11.5",
+            "max": "15.0"
+        },
+        "Reticulocytes": {
+            "unit": "%",
+            "min": "0.7",
+            "max": "2.0"
+        },
+        "Schistocytes": {
+            "unit": "",
+            "min": 0,
+            "max": 0
+        },
+        "Sodium": {
+            "unit": "meq/L",
+            "min": "134",
+            "max": "146"
+        },
+        "T4": {
+            "unit": "ug/dL",
+            "min": "4.5",
+            "max": "10.9"
+        },
+        "TIBC": {
+            "unit": "ug/dL",
+            "min": "250",
+            "max": "425"
+        },
+        "TSH, High Sensitivity": {
+            "unit": "micro[IU]/mL",
+            "min": "0.7000",
+            "max": "4.1700"
+        },
+        "Target Cells": {
+            "unit": "",
+            "min": 0,
+            "max": 0
+        },
+        "Tear Drop Cells": {
+            "unit": "",
+            "min": 0,
+            "max": 0
+        },
+        "Total Bilirubin": {
+            "unit": "mg/dL",
+            "min": "0.1",
+            "max": "0.8"
+        },
+        "Total CK": {
+            "unit": "U/L",
+            "min": "21",
+            "max": "232"
+        },
+        "Total Protein": {
+            "unit": "g/dL",
+            "min": "6.0",
+            "max": "8.0"
+        },
+        "Total cells screened": {
+            "unit": "",
+            "min": "diff",
+            "max": "diff"
+        },
+        "Unsaturated Iron Binding Capacity": {
+            "unit": "ug/dL",
+            "min": "69",
+            "max": "240"
+        },
+        "Varicella IgM": {
+            "unit": "",
+            "min": -1,
+            "max": 0.9
+        },
+        "Varicella Zoster IGG": {
+            "unit": "",
+            "min": "S/CO",
+            "max": "S/CO"
+        },
+        "Ventricular Rate": {
+            "unit": "",
+            "min": "BPM",
+            "max": "BPM"
+        },
+        "Vit D, 25-Hydroxy": {
+            "unit": "ng/mL",
+            "min": "20.0",
+            "max": "50.0"
+        },
+        "WBC": {
+            "unit": "10*3/uL",
+            "min": "5.0",
+            "max": "14.5"
+        },
+        "eGFR (Bedside Schwartz 2009)": {
+            "unit": "",
+            "min": "ml/min/1.73 m2",
+            "max": "ml/min/1.73 m2"
+        },
+        "eGFR (CKiD equation 2012)": {
+            "unit": "",
+            "min": "mL/min/1.73 m2",
+            "max": "mL/min/1.73 m2"
         }
     }
-} 
+}

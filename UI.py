@@ -111,7 +111,7 @@ class UI:
             ax = self.fig.add_subplot(n_rows, n_cols, idx + 1)
             param_data = df[df['Parameter'] == param].sort_values('Date')
             param_info = self.ps.parameters[param]
-            
+            #print(f"Plotting {param_info} with data: {param_data}")
             # Split data into normal and abnormal ranges
             normal_mask = (param_data['Value'] >= param_info['min']) & (param_data['Value'] <= param_info['max'])
             abnormal_mask = ~normal_mask
