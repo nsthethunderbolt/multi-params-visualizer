@@ -1,10 +1,5 @@
 {
     "parameters": {
-        "@colspan": {
-            "unit": "",
-            "min": 0,
-            "max": 0
-        },
         "ALT": {
             "unit": "U/L",
             "min": "10",
@@ -44,16 +39,6 @@
             "unit": "",
             "min": 0,
             "max": 0
-        },
-        "Atrial Rate": {
-            "unit": "",
-            "min": "BPM",
-            "max": "BPM"
-        },
-        "Atypical Lymphocytes": {
-            "unit": "",
-            "min": "%",
-            "max": "%"
         },
         "Auto IG%": {
             "unit": "%",
@@ -275,16 +260,6 @@
             "min": "0.00",
             "max": "1.10"
         },
-        "Myelocytes": {
-            "unit": "",
-            "min": "%",
-            "max": "%"
-        },
-        "NRBCs/100": {
-            "unit": "",
-            "min": "/100 {WBC}",
-            "max": "/100 {WBC}"
-        },
         "Neutrophils": {
             "unit": "%",
             "min": "32.0",
@@ -299,11 +274,6 @@
             "unit": "",
             "min": 0,
             "max": 0
-        },
-        "P-R Interval": {
-            "unit": "",
-            "min": "ms",
-            "max": "ms"
         },
         "PTT": {
             "unit": "s",
@@ -344,36 +314,6 @@
             "unit": "s",
             "min": "12.0",
             "max": "15.3"
-        },
-        "Q-T Interval": {
-            "unit": "",
-            "min": "ms",
-            "max": "ms"
-        },
-        "QRS Duration": {
-            "unit": "",
-            "min": "ms",
-            "max": "ms"
-        },
-        "QTc Calculation(Bazett)": {
-            "unit": "",
-            "min": "ms",
-            "max": "ms"
-        },
-        "QTc Fredericia": {
-            "unit": "",
-            "min": "ms",
-            "max": "ms"
-        },
-        "QuantiFERON Mitogen minus NIL": {
-            "unit": "",
-            "min": "IU/mL",
-            "max": "IU/mL"
-        },
-        "QuantiFERON NIL": {
-            "unit": "",
-            "min": "IU/mL",
-            "max": "IU/mL"
         },
         "Quantiferon Plus TB1 minus NIL": {
             "unit": "",
@@ -455,11 +395,6 @@
             "min": "6.0",
             "max": "8.0"
         },
-        "Total cells screened": {
-            "unit": "",
-            "min": "diff",
-            "max": "diff"
-        },
         "Unsaturated Iron Binding Capacity": {
             "unit": "ug/dL",
             "min": "69",
@@ -470,16 +405,6 @@
             "min": -1,
             "max": 0.9
         },
-        "Varicella Zoster IGG": {
-            "unit": "",
-            "min": "S/CO",
-            "max": "S/CO"
-        },
-        "Ventricular Rate": {
-            "unit": "",
-            "min": "BPM",
-            "max": "BPM"
-        },
         "Vit D, 25-Hydroxy": {
             "unit": "ng/mL",
             "min": "20.0",
@@ -489,16 +414,6 @@
             "unit": "10*3/uL",
             "min": "5.0",
             "max": "14.5"
-        },
-        "eGFR (Bedside Schwartz 2009)": {
-            "unit": "",
-            "min": "ml/min/1.73 m2",
-            "max": "ml/min/1.73 m2"
-        },
-        "eGFR (CKiD equation 2012)": {
-            "unit": "",
-            "min": "mL/min/1.73 m2",
-            "max": "mL/min/1.73 m2"
         }
     }
 }

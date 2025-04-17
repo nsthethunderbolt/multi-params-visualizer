@@ -88,18 +88,20 @@ def extract_to_csv(json_file_path):
         writer.writerows(rows[0:])  # Write the data rows
     return op_csv
 
-def populate_stored_csv(op_csv):
+def populate_stored_csv(op_csv, param_list):
     df = pd.read_csv(op_csv)
     df=df.sort_values(by='Analysis Time')
+    df=df[df['Component'].isin(param_list)]
     df=df[['Analysis Time','Value','Component']]
     df.columns=['Date','Value','Parameter']
     shutil.copy('stored_data.csv', 'stored_data.csv.bak')
     df.to_csv('stored_data.csv', index=False)
 
-def populate_params_json(op_csv):
+def populate_params_json(op_csv, param_list):
     df = pd.read_csv(op_csv)
     script_dir = os.path.dirname(os.path.abspath(__file__))
     json_file_path = os.path.join(script_dir, 'parameters.json')
+    df=df[df['Component'].isin(param_list)]
     df=df.sort_values(by='Component')
     toGetNormalValues=df.groupby(['Component']).first()
     parameters={}
@@ -138,20 +140,32 @@ def populate_params_json(op_csv):
         raise Exception("Error: Could not write JSON file")
 
 
+def read_txt_to_param_list(file_path):
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    json_file_path = os.path.join(script_dir, file_path)
+    try:
+        with open(file_path, 'r') as file:
+            lines = file.readlines()
+        # Remove newline characters from each line
+        return [line.strip() for line in lines]
+    except FileNotFoundError:
+        return f"Error: File not found at {file_path}"
+
+
 if __name__ == "__main__":
     # Parse command-line arguments
     parser = argparse.ArgumentParser(description="Convert XML to JSON and extract data to CSV.")
     parser.add_argument("input_xml", type=str, help="Path to the input XML file")
     args = parser.parse_args()
-
+    param_list = read_txt_to_param_list('parameters_to_track.txt')
     # Process the input XML file
     input_xml = args.input_xml
     op_json = convert_xml_to_json(input_xml)
     op_csv = extract_to_csv(op_json)
     print(f"Data extracted to {op_csv}")
-    populate_params_json(op_csv)
+    populate_params_json(op_csv, param_list)
     print(f"Parameters are stored in parameters.json and backup in parameters.json.bak")
-    populate_stored_csv(op_csv)
+    populate_stored_csv(op_csv, param_list)
     print(f"Data is stored in stored_data.csv and backup in stored_data.csv.bak")
     print("All done! To open the application with latest data run the following command:")
     print("python3 MultiParamsVisualizer.py")
