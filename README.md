@@ -11,15 +11,20 @@ A Python-based desktop application for tracking and visualizing various paramete
 - Pre-defined normal ranges for common parameters
 - Parameters controlled by a JSON file
 - Easy-to-use interface with dropdown selection
+- **Web-based Graph Rendering**: Uses Plotly to render interactive graphs in the web browser
+- **QR Code Display**: Generates a QR code for easy sharing or accessing the application
+- **Data Extraction Logic**: Converts XML data to JSON and extracts relevant data into CSV format for further processing
 
 ## Requirements
 
 - Python 3.x
 - Required Python packages:
-  - tkinter (usually comes with Python)
-  - matplotlib
   - pandas
   - numpy
+  - plotly
+  - dash
+  - dash-bootstrap-components
+  - xmltodict
 
 ## Installation
 
@@ -31,7 +36,7 @@ cd multi-params-visualizer
 
 2. Install the required packages:
 ```bash
-pip install matplotlib pandas numpy
+pip install pandas numpy plotly dash dash-bootstrap-components xmltodict
 ```
 
 ## Usage
@@ -41,13 +46,31 @@ pip install matplotlib pandas numpy
 python MultiParamsVisualizer.py
 ```
 
-2. To add a new data point:
+2. To process XML data:
+   - Use the `extractData.py` script to convert XML data into JSON and CSV formats:
+   ```bash
+   python extractData.py <path_to_input_xml>
+   ```
+
+3. Open the application in your browser:
+   - The application will generate interactive graphs for each parameter using Plotly.
+   - A QR code will be displayed for easy access to the application.
+
+4. To add a new data point:
    - Select the parameter from the dropdown menu
    - Enter the date in YYYY-MM-DD format
    - Enter the value
    - Click "Add Data Point"
 
-3. The data will be automatically saved to `stored_data.csv` in the same directory.
+5. The data will be automatically saved to `stored_data.csv` in the same directory.
+
+## Data Extraction Logic
+
+The application includes a robust data extraction pipeline:
+1. **XML to JSON Conversion**: The `extractData.py` script uses `xmltodict` to parse XML files into JSON format.
+2. **JSON to CSV Conversion**: Extracts relevant data (e.g., headers and rows) from the JSON and saves it as a CSV file.
+3. **Parameter Normalization**: Processes the extracted data to compute normal ranges and stores them in a JSON file (`parameters.json`).
+4. **Data Storage**: Combines historical data with new data and saves it in `stored_data.csv`.
 
 ## Data Storage
 
@@ -58,4 +81,4 @@ All data is stored in a CSV file (`stored_data.csv`) with the following columns:
 
 ## Contributing
 
-Feel free to submit issues and enhancement requests! 
+Feel free to submit issues and enhancement requests!
