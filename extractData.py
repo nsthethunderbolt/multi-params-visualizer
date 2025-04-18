@@ -4,6 +4,7 @@ import xmltodict
 import re
 import csv
 import argparse
+import ast
 import pandas as pd
 import shutil
 header_added = False
@@ -99,8 +100,8 @@ def populate_stored_csv(op_csv, param_list):
     df['Value'] = df['Value'].str.replace('+', '')
     df['Value'] = df['Value'].str.replace(',', '')
 
-    df['Value'] = df['Value'].apply(lambda x: x['content'] if isinstance(x, dict) and 'content' in x else x)
-
+    df['Value'] = df['Value'].apply(lambda x: ast.literal_eval(x)['content'] if isinstance(x, str) and 'content' in x else x)
+    df = df[df.apply(lambda row: row.count() == 3, axis=1)]
     shutil.copy('stored_data.csv', 'stored_data.csv.bak')
     df.to_csv('stored_data.csv', index=False)
 
@@ -122,7 +123,10 @@ def populate_params_json(op_csv, param_list):
             if len(spl)>1:
                 furtherspl = spl[1].split()
                 if len(furtherspl)>1:
-                    parameters[item[0]] = { "unit": furtherspl[1], "min":spl[0],"max": furtherspl[0]}
+                    parameters[item[0]] = { "unit": furtherspl[1], "min":float(spl[0]),"max": float(furtherspl[0])}
+                    unitSet=True
+                else:
+                    parameters[item[0]] = { "unit": "", "min":float(spl[0]),"max": float(spl[1])}
                     unitSet=True
         if not unitSet:
             if item[1] == '(none)' or item[1] == 'N/A' or item[1] == None:

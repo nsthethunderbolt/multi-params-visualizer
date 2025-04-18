@@ -82,10 +82,6 @@ Date,Value,Parameter
 01/29/2025,4.2,Eosinophils
 01/29/2025,6.2,Monocytes
 01/29/2025,4.23,"Lymphocytes, Absolute"
-01/30/2025,{'content': 'Compatible with Beta Thalassemia Trait (Heterozygous Beta Thalassemia).'},Pathologist Interp
-01/30/2025,No,Prior Transfusion?
-01/30/2025,Yes,IEF
-01/30/2025,Yes,Capillary
 01/30/2025,94.4,Hgb A %
 01/30/2025,5.3,Hgb A2 %
 01/30/2025,0.5,Hgb F %
@@ -132,7 +128,7 @@ Date,Value,Parameter
 03/01/2025,8.7,MPV
 03/01/2025,421,Platelet
 03/01/2025,17.6,RDW
-03/01/2025,{'content': '31.2'},Hematocrit
+03/01/2025,31.2,Hematocrit
 03/01/2025,17.2,MCH
 03/01/2025,55.2,MCV
 03/01/2025,9.7,Hgb
@@ -150,7 +146,7 @@ Date,Value,Parameter
 03/01/2025,2.70,High-Sensitivity Troponin I
 03/01/2025,4.3,Phosphorus
 03/01/2025,9,Lipase
-03/01/2025,{'content': '4.7'},Potassium
+03/01/2025,4.7,Potassium
 03/01/2025,9.2,Calcium
 03/01/2025,10,Anion Gap
 03/01/2025,21,CO2
@@ -202,7 +198,7 @@ Date,Value,Parameter
 03/04/2025,1.71,"Monocytes, Absolute"
 03/04/2025,3.02,"Neutrophils, Absolute"
 03/04/2025,0.10,Creatinine
-03/04/2025,{'content': '35.5'},Hematocrit
+03/04/2025,35.5,Hematocrit
 03/04/2025,6.33,RBC
 03/04/2025,2,Anisocytosis
 03/04/2025,1,Polychromasia
@@ -410,19 +406,3 @@ Date,Value,Parameter
 04/08/2025,1.7,Basophils
 04/08/2025,0.0,Eosinophils
 04/08/2025,2,Anisocytosis
-,Normal sinus rhythm,Diagnosis
-,Possible Left ventricular hypertrophy,Diagnosis
-,When compared with ECG of 04-MAR-2025 13:52,Diagnosis
-,No significant change was found,Diagnosis
-,Normal sinus rhythm,Diagnosis
-,Deep Q wave in lead V6 Possible Left ventricular hypertrophy,Diagnosis
-,When compared with ECG of 01-MAR-2025 22:26,Diagnosis
-,No significant change was found,Diagnosis
-,** * Pediatric ECG analysis * **,Diagnosis
-,Normal sinus rhythm,Diagnosis
-,Deep Q wave in lead V6 Possible Left ventricular hypertrophy,Diagnosis
-,When compared with ECG of 08-JAN-2025 11:04,Diagnosis
-,No significant change was found,Diagnosis
-,Normal sinus rhythm,Diagnosis
-,Possible Left ventricular hypertrophy,Diagnosis
-,No previous ECGs available,Diagnosis

@@ -17,7 +17,6 @@ C4 Complement
 CO2
 Calcium
 Calcium, Ion
-Capillary
 Chloride
 Creatinine
 Cystatin C
@@ -35,7 +34,6 @@ Hgb A2 %
 Hgb F %
 High-Sensitivity Troponin I
 Hypochromia
-IEF
 INR
 Iron
 Lipase
@@ -57,7 +55,6 @@ Phosphorus
 Platelet
 Polychromasia
 Potassium
-Prior Transfusion?
 Protime
 RBC
 RDW

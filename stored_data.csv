@@ -1,428 +1,408 @@
 Date,Value,Parameter
-01/08/2025,1.21,"Calcium, Ion"
-01/08/2025,8.8,MPV
-01/08/2025,460,Platelet
-01/08/2025,17.3,RDW
-01/08/2025,30.9,MCHC
-01/08/2025,17.1,MCH
-01/08/2025,55.2,MCV
-01/08/2025,33.3,Hematocrit
-01/08/2025,10.3,Hgb
-01/08/2025,6.03,RBC
-01/08/2025,10.2,WBC
-01/08/2025,0.4,Total Bilirubin
-01/08/2025,2.70,High-Sensitivity Troponin I
-01/08/2025,452,ALT
-01/08/2025,95,Alkaline Phosphatase
-01/08/2025,4.7,Albumin
-01/08/2025,7.5,Total Protein
-01/08/2025,9.6,Calcium
-01/08/2025,10,Anion Gap
-01/08/2025,22,CO2
-01/08/2025,106,Chloride
-01/08/2025,4.1,Potassium
-01/08/2025,138,Sodium
-01/08/2025,0.17,Creatinine
-01/08/2025,6,"BUN, Bld"
-01/08/2025,431,AST
-01/08/2025,86,Glucose Random
-01/08/2025,13.0,Protime
-01/08/2025,0.29,"Eosinophils, Absolute"
-01/08/2025,29692,Total CK
-01/08/2025,10,GGT
-01/08/2025,5.5,Hemoglobin A1C
-01/08/2025,2.0,Magnesium
-01/08/2025,5.1,Phosphorus
-01/08/2025,9.9,T4
-01/08/2025,3.3837,"TSH, High Sensitivity"
-01/08/2025,21.7,C4 Complement
-01/08/2025,26.7,PTT
-01/08/2025,23.8,"Vit D, 25-Hydroxy"
-01/08/2025,0.03,"Basophils, Absolute"
-01/08/2025,0.9,INR
-01/08/2025,1,Schistocytes
-01/08/2025,4.25,"Lymphocytes, Absolute"
-01/08/2025,5.20,ANC
-01/08/2025,0.3,Basophils
-01/08/2025,2.8,Eosinophils
-01/08/2025,3.9,Monocytes
-01/08/2025,41.7,Lymphocytes
-01/08/2025,0.3,Auto IG%
-01/08/2025,51.0,Neutrophils
-01/08/2025,108.3,C3 Complement
-01/08/2025,0.78,Cystatin C
-01/08/2025,0.40,"Monocytes, Absolute"
-01/29/2025,59,Iron
-01/29/2025,307,TIBC
-01/29/2025,3.23,ANC
-01/29/2025,8.5,MPV
-01/29/2025,606,Platelet
-01/29/2025,30.9,MCHC
-01/29/2025,17.1,MCH
-01/29/2025,9.7,Hgb
-01/29/2025,31.4,Hematocrit
-01/29/2025,248,Unsaturated Iron Binding Capacity
-01/29/2025,5.68,RBC
-01/29/2025,8.4,WBC
-01/29/2025,1,Target Cells
-01/29/2025,1,Microcytes
-01/29/2025,2,Hypochromia
-01/29/2025,55.3,MCV
-01/29/2025,38.3,Neutrophils
-01/29/2025,18.1,RDW
-01/29/2025,50.4,Lymphocytes
-01/29/2025,0.2,Auto IG%
-01/29/2025,1.3,Reticulocytes
-01/29/2025,0.06,"Basophils, Absolute"
-01/29/2025,0.35,"Eosinophils, Absolute"
-01/29/2025,0.52,"Monocytes, Absolute"
-01/29/2025,19.2,Ferritin
-01/29/2025,3.22,ANC
-01/29/2025,0.7,Basophils
-01/29/2025,4.2,Eosinophils
-01/29/2025,6.2,Monocytes
-01/29/2025,4.23,"Lymphocytes, Absolute"
-01/30/2025,{'content': 'Compatible with Beta Thalassemia Trait (Heterozygous Beta Thalassemia).'},Pathologist Interp
-01/30/2025,No,Prior Transfusion?
-01/30/2025,Yes,IEF
-01/30/2025,Yes,Capillary
-01/30/2025,94.4,Hgb A %
-01/30/2025,5.3,Hgb A2 %
-01/30/2025,0.5,Hgb F %
-02/28/2025,499,Platelet
-02/28/2025,8.8,MPV
-02/28/2025,2.70,High-Sensitivity Troponin I
-02/28/2025,68.7,Neutrophils
-02/28/2025,0.9,INR
-02/28/2025,97.7,C3 Complement
-02/28/2025,17.5,RDW
-02/28/2025,12.9,Protime
-02/28/2025,30.7,MCHC
-02/28/2025,10.1,WBC
-02/28/2025,55.8,MCV
-02/28/2025,33.2,Hematocrit
-02/28/2025,10.2,Hgb
-02/28/2025,5.95,RBC
-02/28/2025,1,Schistocytes
-02/28/2025,1,Ovalocytes
-02/28/2025,1,Polychromasia
-02/28/2025,17.1,MCH
-02/28/2025,0.7,Auto IG%
-02/28/2025,0.06,"Basophils, Absolute"
-02/28/2025,10.1,Monocytes
-02/28/2025,18.7,Lymphocytes
-02/28/2025,9323,Total CK
-02/28/2025,12,GGT
-02/28/2025,203,AST
-02/28/2025,366,ALT
-02/28/2025,6,"BUN, Bld"
-02/28/2025,20.9,C4 Complement
-02/28/2025,0.1,"Bilirubin, Direct"
-02/28/2025,0.16,Creatinine
-02/28/2025,25.5,PTT
-02/28/2025,0.12,"Eosinophils, Absolute"
-02/28/2025,1.02,"Monocytes, Absolute"
-02/28/2025,1.89,"Lymphocytes, Absolute"
-02/28/2025,6.94,ANC
-02/28/2025,1.2,Eosinophils
-02/28/2025,0.6,Basophils
-02/28/2025,0.3,Total Bilirubin
-03/01/2025,6,"BUN, Bld"
-03/01/2025,91,Glucose Random
-03/01/2025,8.7,MPV
-03/01/2025,421,Platelet
-03/01/2025,17.6,RDW
-03/01/2025,{'content': '31.2'},Hematocrit
-03/01/2025,17.2,MCH
-03/01/2025,55.2,MCV
-03/01/2025,9.7,Hgb
-03/01/2025,5.65,RBC
-03/01/2025,0.10,Creatinine
-03/01/2025,8.0,WBC
-03/01/2025,31.1,MCHC
-03/01/2025,135,Sodium
-03/01/2025,2.1,Magnesium
-03/01/2025,104,Chloride
-03/01/2025,72,Alkaline Phosphatase
-03/01/2025,235,AST
-03/01/2025,357,ALT
-03/01/2025,0.3,Total Bilirubin
-03/01/2025,2.70,High-Sensitivity Troponin I
-03/01/2025,4.3,Phosphorus
-03/01/2025,9,Lipase
-03/01/2025,{'content': '4.7'},Potassium
-03/01/2025,9.2,Calcium
-03/01/2025,10,Anion Gap
-03/01/2025,21,CO2
-03/01/2025,7.3,Total Protein
-03/01/2025,4.2,Albumin
-03/02/2025,1,Target Cells
-03/02/2025,1,Microcytes
-03/02/2025,1,Hypochromia
-03/02/2025,0.0,Bands
-03/02/2025,46.2,Lymphocytes
-03/02/2025,48.7,Neutrophils
-03/02/2025,0.00,"Eosinophils, Absolute"
-03/02/2025,0.07,"Basophils, Absolute"
-03/02/2025,0.34,"Monocytes, Absolute"
-03/02/2025,15.5,BNP
-03/02/2025,3.90,"Neutrophils, Absolute"
-03/02/2025,0.9,Basophils
-03/02/2025,0.0,Eosinophils
-03/02/2025,4.3,Monocytes
-03/02/2025,3.70,"Lymphocytes, Absolute"
-03/04/2025,11.3,Monocytes
-03/04/2025,67.0,Lymphocytes
-03/04/2025,0.0,Bands
-03/04/2025,20.0,Neutrophils
-03/04/2025,2.70,High-Sensitivity Troponin I
-03/04/2025,12.3,Protime
-03/04/2025,8.8,MPV
-03/04/2025,334,Platelet
-03/04/2025,0.0,Eosinophils
-03/04/2025,18.5,RDW
-03/04/2025,30.1,MCHC
-03/04/2025,16.9,MCH
-03/04/2025,0.9,INR
-03/04/2025,0.9,Basophils
-03/04/2025,86.0,C3 Complement
-03/04/2025,10.12,"Lymphocytes, Absolute"
-03/04/2025,56.1,MCV
-03/04/2025,8781,Total CK
-03/04/2025,13,GGT
-03/04/2025,209,AST
-03/04/2025,299,ALT
-03/04/2025,7,"BUN, Bld"
-03/04/2025,11.7,C4 Complement
-03/04/2025,0.1,"Bilirubin, Direct"
-03/04/2025,0.2,Total Bilirubin
-03/04/2025,22.5,PTT
-03/04/2025,0.00,"Eosinophils, Absolute"
-03/04/2025,0.14,"Basophils, Absolute"
-03/04/2025,1.71,"Monocytes, Absolute"
-03/04/2025,3.02,"Neutrophils, Absolute"
-03/04/2025,0.10,Creatinine
-03/04/2025,{'content': '35.5'},Hematocrit
-03/04/2025,6.33,RBC
-03/04/2025,2,Anisocytosis
-03/04/2025,1,Polychromasia
-03/04/2025,2,Hypochromia
-03/04/2025,10.7,Hgb
-03/04/2025,1,Target Cells
-03/04/2025,1,Schistocytes
-03/04/2025,15.1,WBC
-03/04/2025,3,Microcytes
-03/11/2025,30.3,MCHC
-03/11/2025,13.6,Monocytes
-03/11/2025,61.9,Lymphocytes
-03/11/2025,0.0,Bands
-03/11/2025,9.1,MPV
-03/11/2025,477,Platelet
-03/11/2025,18.1,RDW
-03/11/2025,17.0,MCH
-03/11/2025,6.40,RBC
-03/11/2025,36.0,Hematocrit
-03/11/2025,10.9,Hgb
-03/11/2025,0.0,Eosinophils
-03/11/2025,11.1,WBC
-03/11/2025,1,Schistocytes
-03/11/2025,1,Target Cells
-03/11/2025,3,Microcytes
-03/11/2025,2,Anisocytosis
-03/11/2025,56.3,MCV
-03/11/2025,0.8,Basophils
-03/11/2025,23.7,Neutrophils
-03/11/2025,6.87,"Lymphocytes, Absolute"
-03/11/2025,2.63,"Neutrophils, Absolute"
-03/11/2025,0.13,Creatinine
-03/11/2025,17,GGT
-03/11/2025,237,AST
-03/11/2025,276,ALT
-03/11/2025,6,"BUN, Bld"
-03/11/2025,15.9,C4 Complement
-03/11/2025,0.2,"Bilirubin, Direct"
-03/11/2025,0.4,Total Bilirubin
-03/11/2025,8670,Total CK
-03/11/2025,92.7,C3 Complement
-03/11/2025,21.8,PTT
-03/11/2025,0.09,"Basophils, Absolute"
-03/11/2025,0.00,"Eosinophils, Absolute"
-03/11/2025,1.51,"Monocytes, Absolute"
-03/11/2025,2.70,High-Sensitivity Troponin I
-03/11/2025,12.7,Protime
-03/11/2025,0.9,INR
-03/18/2025,17.1,MCH
-03/18/2025,12.5,Protime
-03/18/2025,2.70,High-Sensitivity Troponin I
-03/18/2025,9.1,MPV
-03/18/2025,586,Platelet
-03/18/2025,18.7,RDW
-03/18/2025,30.6,MCHC
-03/18/2025,0.9,INR
-03/18/2025,55.9,MCV
-03/18/2025,14.4,WBC
-03/18/2025,10.8,Hgb
-03/18/2025,6.31,RBC
-03/18/2025,1,Schistocytes
-03/18/2025,1,Target Cells
-03/18/2025,2,Microcytes
-03/18/2025,1,Hypochromia
-03/18/2025,2,Anisocytosis
-03/18/2025,32.2,Neutrophils
-03/18/2025,35.3,Hematocrit
-03/18/2025,0.0,Bands
-03/18/2025,17.7,C4 Complement
-03/18/2025,9218,Total CK
-03/18/2025,63.6,Lymphocytes
-03/18/2025,0.10,Creatinine
-03/18/2025,17,GGT
-03/18/2025,204,AST
-03/18/2025,252,ALT
-03/18/2025,5,"BUN, Bld"
-03/18/2025,0.2,"Bilirubin, Direct"
-03/18/2025,0.3,Total Bilirubin
-03/18/2025,22.5,PTT
-03/18/2025,0.00,"Eosinophils, Absolute"
-03/18/2025,0.12,"Basophils, Absolute"
-03/18/2025,0.48,"Monocytes, Absolute"
-03/18/2025,9.16,"Lymphocytes, Absolute"
-03/18/2025,4.64,"Neutrophils, Absolute"
-03/18/2025,0.8,Basophils
-03/18/2025,0.0,Eosinophils
-03/18/2025,3.3,Monocytes
-03/18/2025,97.6,C3 Complement
-03/25/2025,553,Platelet
-03/25/2025,18.7,RDW
-03/25/2025,9.1,MPV
-03/25/2025,0.9,INR
-03/25/2025,12.2,Protime
-03/25/2025,30.2,MCHC
-03/25/2025,4.50,High-Sensitivity Troponin I
-03/25/2025,17.1,MCH
-03/25/2025,2,Anisocytosis
-03/25/2025,37.1,Hematocrit
-03/25/2025,11.2,Hgb
-03/25/2025,6.56,RBC
-03/25/2025,14.4,WBC
-03/25/2025,1,Tear Drop Cells
-03/25/2025,1,Schistocytes
-03/25/2025,1,Target Cells
-03/25/2025,1,Microcytes
-03/25/2025,104.6,C3 Complement
-03/25/2025,56.6,MCV
-03/25/2025,29.5,Neutrophils
-03/25/2025,0.8,Eosinophils
-03/25/2025,58.9,Lymphocytes
-03/25/2025,5194,Total CK
-03/25/2025,0.14,Creatinine
-03/25/2025,15,GGT
-03/25/2025,0.6,Auto IG%
-03/25/2025,205,ALT
-03/25/2025,6,"BUN, Bld"
-03/25/2025,19.8,C4 Complement
-03/25/2025,0.1,"Bilirubin, Direct"
-03/25/2025,162,AST
-03/25/2025,21.2,PTT
-03/25/2025,0.04,"Basophils, Absolute"
-03/25/2025,0.12,"Eosinophils, Absolute"
-03/25/2025,1.43,"Monocytes, Absolute"
-03/25/2025,8.48,"Lymphocytes, Absolute"
-03/25/2025,4.25,ANC
-03/25/2025,0.3,Basophils
-03/25/2025,9.9,Monocytes
-03/25/2025,0.3,Total Bilirubin
-04/01/2025,18.8,RDW
-04/01/2025,462,Platelet
-04/01/2025,8.8,MPV
-04/01/2025,0.0,Bands
-04/01/2025,12.2,Protime
-04/01/2025,0.9,INR
-04/01/2025,24.2,Neutrophils
-04/01/2025,4.90,High-Sensitivity Troponin I
-04/01/2025,30.2,MCHC
-04/01/2025,1,Hypochromia
-04/01/2025,37.4,Hematocrit
-04/01/2025,11.3,Hgb
-04/01/2025,6.60,RBC
-04/01/2025,13.6,WBC
-04/01/2025,1,Schistocytes
-04/01/2025,1,Ovalocytes
-04/01/2025,3,Microcytes
-04/01/2025,66.7,Lymphocytes
-04/01/2025,17.1,MCH
-04/01/2025,56.7,MCV
-04/01/2025,0.8,Eosinophils
-04/01/2025,4434,Total CK
-04/01/2025,0.10,Creatinine
-04/01/2025,19,GGT
-04/01/2025,141,AST
-04/01/2025,191,ALT
-04/01/2025,5.0,Monocytes
-04/01/2025,18.0,C4 Complement
-04/01/2025,0.2,"Bilirubin, Direct"
-04/01/2025,0.3,Total Bilirubin
-04/01/2025,6,"BUN, Bld"
-04/01/2025,100.2,C3 Complement
-04/01/2025,22.1,PTT
-04/01/2025,3.29,"Neutrophils, Absolute"
-04/01/2025,9.41,"Lymphocytes, Absolute"
-04/01/2025,0.8,Basophils
-04/01/2025,0.11,"Basophils, Absolute"
-04/01/2025,0.11,"Eosinophils, Absolute"
-04/01/2025,0.68,"Monocytes, Absolute"
-04/08/2025,34.5,Neutrophils
-04/08/2025,0.8,INR
-04/08/2025,11.9,Protime
-04/08/2025,4.30,High-Sensitivity Troponin I
-04/08/2025,8.7,MPV
-04/08/2025,527,Platelet
-04/08/2025,19.3,RDW
-04/08/2025,30.8,MCHC
-04/08/2025,1,Hypochromia
-04/08/2025,56.3,MCV
-04/08/2025,37.7,Hematocrit
-04/08/2025,11.6,Hgb
-04/08/2025,6.70,RBC
-04/08/2025,13.2,WBC
-04/08/2025,1,Schistocytes
-04/08/2025,1,Target Cells
-04/08/2025,3,Microcytes
-04/08/2025,0.0,Bands
-04/08/2025,17.3,MCH
-04/08/2025,51.7,Lymphocytes
-04/08/2025,110.7,C3 Complement
-04/08/2025,3.4,Monocytes
-04/08/2025,3807,Total CK
-04/08/2025,0.18,Creatinine
-04/08/2025,16,GGT
-04/08/2025,130,AST
-04/08/2025,183,ALT
-04/08/2025,7,"BUN, Bld"
-04/08/2025,21.1,C4 Complement
-04/08/2025,0.1,"Bilirubin, Direct"
-04/08/2025,0.3,Total Bilirubin
-04/08/2025,22.3,PTT
-04/08/2025,0.00,"Eosinophils, Absolute"
-04/08/2025,0.22,"Basophils, Absolute"
-04/08/2025,0.45,"Monocytes, Absolute"
-04/08/2025,7.96,"Lymphocytes, Absolute"
-04/08/2025,4.55,"Neutrophils, Absolute"
-04/08/2025,1.7,Basophils
-04/08/2025,0.0,Eosinophils
-04/08/2025,2,Anisocytosis
-,Normal sinus rhythm,Diagnosis
-,Possible Left ventricular hypertrophy,Diagnosis
-,When compared with ECG of 04-MAR-2025 13:52,Diagnosis
-,No significant change was found,Diagnosis
-,Normal sinus rhythm,Diagnosis
-,Deep Q wave in lead V6 Possible Left ventricular hypertrophy,Diagnosis
-,When compared with ECG of 01-MAR-2025 22:26,Diagnosis
-,No significant change was found,Diagnosis
-,** * Pediatric ECG analysis * **,Diagnosis
-,Normal sinus rhythm,Diagnosis
-,Deep Q wave in lead V6 Possible Left ventricular hypertrophy,Diagnosis
-,When compared with ECG of 08-JAN-2025 11:04,Diagnosis
-,No significant change was found,Diagnosis
-,Normal sinus rhythm,Diagnosis
-,Possible Left ventricular hypertrophy,Diagnosis
-,No previous ECGs available,Diagnosis
+2025-01-08,1.21,"Calcium, Ion"
+2025-01-08,8.8,MPV
+2025-01-08,460.0,Platelet
+2025-01-08,17.3,RDW
+2025-01-08,30.9,MCHC
+2025-01-08,17.1,MCH
+2025-01-08,55.2,MCV
+2025-01-08,33.3,Hematocrit
+2025-01-08,10.3,Hgb
+2025-01-08,6.03,RBC
+2025-01-08,10.2,WBC
+2025-01-08,0.4,Total Bilirubin
+2025-01-08,2.7,High-Sensitivity Troponin I
+2025-01-08,452.0,ALT
+2025-01-08,95.0,Alkaline Phosphatase
+2025-01-08,4.7,Albumin
+2025-01-08,7.5,Total Protein
+2025-01-08,9.6,Calcium
+2025-01-08,10.0,Anion Gap
+2025-01-08,22.0,CO2
+2025-01-08,106.0,Chloride
+2025-01-08,4.1,Potassium
+2025-01-08,138.0,Sodium
+2025-01-08,0.17,Creatinine
+2025-01-08,6.0,"BUN, Bld"
+2025-01-08,431.0,AST
+2025-01-08,86.0,Glucose Random
+2025-01-08,13.0,Protime
+2025-01-08,0.29,"Eosinophils, Absolute"
+2025-01-08,29692.0,Total CK
+2025-01-08,10.0,GGT
+2025-01-08,5.5,Hemoglobin A1C
+2025-01-08,2.0,Magnesium
+2025-01-08,5.1,Phosphorus
+2025-01-08,9.9,T4
+2025-01-08,3.3837,"TSH, High Sensitivity"
+2025-01-08,21.7,C4 Complement
+2025-01-08,26.7,PTT
+2025-01-08,23.8,"Vit D, 25-Hydroxy"
+2025-01-08,0.03,"Basophils, Absolute"
+2025-01-08,0.9,INR
+2025-01-08,1.0,Schistocytes
+2025-01-08,4.25,"Lymphocytes, Absolute"
+2025-01-08,5.2,ANC
+2025-01-08,0.3,Basophils
+2025-01-08,2.8,Eosinophils
+2025-01-08,3.9,Monocytes
+2025-01-08,41.7,Lymphocytes
+2025-01-08,0.3,Auto IG%
+2025-01-08,51.0,Neutrophils
+2025-01-08,108.3,C3 Complement
+2025-01-08,0.78,Cystatin C
+2025-01-08,0.4,"Monocytes, Absolute"
+2025-01-29,59.0,Iron
+2025-01-29,307.0,TIBC
+2025-01-29,3.23,ANC
+2025-01-29,8.5,MPV
+2025-01-29,606.0,Platelet
+2025-01-29,30.9,MCHC
+2025-01-29,17.1,MCH
+2025-01-29,9.7,Hgb
+2025-01-29,31.4,Hematocrit
+2025-01-29,248.0,Unsaturated Iron Binding Capacity
+2025-01-29,5.68,RBC
+2025-01-29,8.4,WBC
+2025-01-29,1.0,Target Cells
+2025-01-29,1.0,Microcytes
+2025-01-29,2.0,Hypochromia
+2025-01-29,55.3,MCV
+2025-01-29,38.3,Neutrophils
+2025-01-29,18.1,RDW
+2025-01-29,50.4,Lymphocytes
+2025-01-29,0.2,Auto IG%
+2025-01-29,1.3,Reticulocytes
+2025-01-29,0.06,"Basophils, Absolute"
+2025-01-29,0.35,"Eosinophils, Absolute"
+2025-01-29,0.52,"Monocytes, Absolute"
+2025-01-29,19.2,Ferritin
+2025-01-29,3.22,ANC
+2025-01-29,0.7,Basophils
+2025-01-29,4.2,Eosinophils
+2025-01-29,6.2,Monocytes
+2025-01-29,4.23,"Lymphocytes, Absolute"
+2025-01-30,94.4,Hgb A %
+2025-01-30,5.3,Hgb A2 %
+2025-01-30,0.5,Hgb F %
+2025-02-28,499.0,Platelet
+2025-02-28,8.8,MPV
+2025-02-28,2.7,High-Sensitivity Troponin I
+2025-02-28,68.7,Neutrophils
+2025-02-28,0.9,INR
+2025-02-28,97.7,C3 Complement
+2025-02-28,17.5,RDW
+2025-02-28,12.9,Protime
+2025-02-28,30.7,MCHC
+2025-02-28,10.1,WBC
+2025-02-28,55.8,MCV
+2025-02-28,33.2,Hematocrit
+2025-02-28,10.2,Hgb
+2025-02-28,5.95,RBC
+2025-02-28,1.0,Schistocytes
+2025-02-28,1.0,Ovalocytes
+2025-02-28,1.0,Polychromasia
+2025-02-28,17.1,MCH
+2025-02-28,0.7,Auto IG%
+2025-02-28,0.06,"Basophils, Absolute"
+2025-02-28,10.1,Monocytes
+2025-02-28,18.7,Lymphocytes
+2025-02-28,9323.0,Total CK
+2025-02-28,12.0,GGT
+2025-02-28,203.0,AST
+2025-02-28,366.0,ALT
+2025-02-28,6.0,"BUN, Bld"
+2025-02-28,20.9,C4 Complement
+2025-02-28,0.1,"Bilirubin, Direct"
+2025-02-28,0.16,Creatinine
+2025-02-28,25.5,PTT
+2025-02-28,0.12,"Eosinophils, Absolute"
+2025-02-28,1.02,"Monocytes, Absolute"
+2025-02-28,1.89,"Lymphocytes, Absolute"
+2025-02-28,6.94,ANC
+2025-02-28,1.2,Eosinophils
+2025-02-28,0.6,Basophils
+2025-02-28,0.3,Total Bilirubin
+2025-03-01,6.0,"BUN, Bld"
+2025-03-01,91.0,Glucose Random
+2025-03-01,8.7,MPV
+2025-03-01,421.0,Platelet
+2025-03-01,17.6,RDW
+2025-03-01,31.2,Hematocrit
+2025-03-01,17.2,MCH
+2025-03-01,55.2,MCV
+2025-03-01,9.7,Hgb
+2025-03-01,5.65,RBC
+2025-03-01,0.1,Creatinine
+2025-03-01,8.0,WBC
+2025-03-01,31.1,MCHC
+2025-03-01,135.0,Sodium
+2025-03-01,2.1,Magnesium
+2025-03-01,104.0,Chloride
+2025-03-01,72.0,Alkaline Phosphatase
+2025-03-01,235.0,AST
+2025-03-01,357.0,ALT
+2025-03-01,0.3,Total Bilirubin
+2025-03-01,2.7,High-Sensitivity Troponin I
+2025-03-01,4.3,Phosphorus
+2025-03-01,9.0,Lipase
+2025-03-01,4.7,Potassium
+2025-03-01,9.2,Calcium
+2025-03-01,10.0,Anion Gap
+2025-03-01,21.0,CO2
+2025-03-01,7.3,Total Protein
+2025-03-01,4.2,Albumin
+2025-03-02,1.0,Target Cells
+2025-03-02,1.0,Microcytes
+2025-03-02,1.0,Hypochromia
+2025-03-02,0.0,Bands
+2025-03-02,46.2,Lymphocytes
+2025-03-02,48.7,Neutrophils
+2025-03-02,0.0,"Eosinophils, Absolute"
+2025-03-02,0.07,"Basophils, Absolute"
+2025-03-02,0.34,"Monocytes, Absolute"
+2025-03-02,15.5,BNP
+2025-03-02,3.9,"Neutrophils, Absolute"
+2025-03-02,0.9,Basophils
+2025-03-02,0.0,Eosinophils
+2025-03-02,4.3,Monocytes
+2025-03-02,3.7,"Lymphocytes, Absolute"
+2025-03-04,11.3,Monocytes
+2025-03-04,67.0,Lymphocytes
+2025-03-04,0.0,Bands
+2025-03-04,20.0,Neutrophils
+2025-03-04,2.7,High-Sensitivity Troponin I
+2025-03-04,12.3,Protime
+2025-03-04,8.8,MPV
+2025-03-04,334.0,Platelet
+2025-03-04,0.0,Eosinophils
+2025-03-04,18.5,RDW
+2025-03-04,30.1,MCHC
+2025-03-04,16.9,MCH
+2025-03-04,0.9,INR
+2025-03-04,0.9,Basophils
+2025-03-04,86.0,C3 Complement
+2025-03-04,10.12,"Lymphocytes, Absolute"
+2025-03-04,56.1,MCV
+2025-03-04,8781.0,Total CK
+2025-03-04,13.0,GGT
+2025-03-04,209.0,AST
+2025-03-04,299.0,ALT
+2025-03-04,7.0,"BUN, Bld"
+2025-03-04,11.7,C4 Complement
+2025-03-04,0.1,"Bilirubin, Direct"
+2025-03-04,0.2,Total Bilirubin
+2025-03-04,22.5,PTT
+2025-03-04,0.0,"Eosinophils, Absolute"
+2025-03-04,0.14,"Basophils, Absolute"
+2025-03-04,1.71,"Monocytes, Absolute"
+2025-03-04,3.02,"Neutrophils, Absolute"
+2025-03-04,0.1,Creatinine
+2025-03-04,35.5,Hematocrit
+2025-03-04,6.33,RBC
+2025-03-04,2.0,Anisocytosis
+2025-03-04,1.0,Polychromasia
+2025-03-04,2.0,Hypochromia
+2025-03-04,10.7,Hgb
+2025-03-04,1.0,Target Cells
+2025-03-04,1.0,Schistocytes
+2025-03-04,15.1,WBC
+2025-03-04,3.0,Microcytes
+2025-03-11,30.3,MCHC
+2025-03-11,13.6,Monocytes
+2025-03-11,61.9,Lymphocytes
+2025-03-11,0.0,Bands
+2025-03-11,9.1,MPV
+2025-03-11,477.0,Platelet
+2025-03-11,18.1,RDW
+2025-03-11,17.0,MCH
+2025-03-11,6.4,RBC
+2025-03-11,36.0,Hematocrit
+2025-03-11,10.9,Hgb
+2025-03-11,0.0,Eosinophils
+2025-03-11,11.1,WBC
+2025-03-11,1.0,Schistocytes
+2025-03-11,1.0,Target Cells
+2025-03-11,3.0,Microcytes
+2025-03-11,2.0,Anisocytosis
+2025-03-11,56.3,MCV
+2025-03-11,0.8,Basophils
+2025-03-11,23.7,Neutrophils
+2025-03-11,6.87,"Lymphocytes, Absolute"
+2025-03-11,2.63,"Neutrophils, Absolute"
+2025-03-11,0.13,Creatinine
+2025-03-11,17.0,GGT
+2025-03-11,237.0,AST
+2025-03-11,276.0,ALT
+2025-03-11,6.0,"BUN, Bld"
+2025-03-11,15.9,C4 Complement
+2025-03-11,0.2,"Bilirubin, Direct"
+2025-03-11,0.4,Total Bilirubin
+2025-03-11,8670.0,Total CK
+2025-03-11,92.7,C3 Complement
+2025-03-11,21.8,PTT
+2025-03-11,0.09,"Basophils, Absolute"
+2025-03-11,0.0,"Eosinophils, Absolute"
+2025-03-11,1.51,"Monocytes, Absolute"
+2025-03-11,2.7,High-Sensitivity Troponin I
+2025-03-11,12.7,Protime
+2025-03-11,0.9,INR
+2025-03-18,17.1,MCH
+2025-03-18,12.5,Protime
+2025-03-18,2.7,High-Sensitivity Troponin I
+2025-03-18,9.1,MPV
+2025-03-18,586.0,Platelet
+2025-03-18,18.7,RDW
+2025-03-18,30.6,MCHC
+2025-03-18,0.9,INR
+2025-03-18,55.9,MCV
+2025-03-18,14.4,WBC
+2025-03-18,10.8,Hgb
+2025-03-18,6.31,RBC
+2025-03-18,1.0,Schistocytes
+2025-03-18,1.0,Target Cells
+2025-03-18,2.0,Microcytes
+2025-03-18,1.0,Hypochromia
+2025-03-18,2.0,Anisocytosis
+2025-03-18,32.2,Neutrophils
+2025-03-18,35.3,Hematocrit
+2025-03-18,0.0,Bands
+2025-03-18,17.7,C4 Complement
+2025-03-18,9218.0,Total CK
+2025-03-18,63.6,Lymphocytes
+2025-03-18,0.1,Creatinine
+2025-03-18,17.0,GGT
+2025-03-18,204.0,AST
+2025-03-18,252.0,ALT
+2025-03-18,5.0,"BUN, Bld"
+2025-03-18,0.2,"Bilirubin, Direct"
+2025-03-18,0.3,Total Bilirubin
+2025-03-18,22.5,PTT
+2025-03-18,0.0,"Eosinophils, Absolute"
+2025-03-18,0.12,"Basophils, Absolute"
+2025-03-18,0.48,"Monocytes, Absolute"
+2025-03-18,9.16,"Lymphocytes, Absolute"
+2025-03-18,4.64,"Neutrophils, Absolute"
+2025-03-18,0.8,Basophils
+2025-03-18,0.0,Eosinophils
+2025-03-18,3.3,Monocytes
+2025-03-18,97.6,C3 Complement
+2025-03-25,553.0,Platelet
+2025-03-25,18.7,RDW
+2025-03-25,9.1,MPV
+2025-03-25,0.9,INR
+2025-03-25,12.2,Protime
+2025-03-25,30.2,MCHC
+2025-03-25,4.5,High-Sensitivity Troponin I
+2025-03-25,17.1,MCH
+2025-03-25,2.0,Anisocytosis
+2025-03-25,37.1,Hematocrit
+2025-03-25,11.2,Hgb
+2025-03-25,6.56,RBC
+2025-03-25,14.4,WBC
+2025-03-25,1.0,Tear Drop Cells
+2025-03-25,1.0,Schistocytes
+2025-03-25,1.0,Target Cells
+2025-03-25,1.0,Microcytes
+2025-03-25,104.6,C3 Complement
+2025-03-25,56.6,MCV
+2025-03-25,29.5,Neutrophils
+2025-03-25,0.8,Eosinophils
+2025-03-25,58.9,Lymphocytes
+2025-03-25,5194.0,Total CK
+2025-03-25,0.14,Creatinine
+2025-03-25,15.0,GGT
+2025-03-25,0.6,Auto IG%
+2025-03-25,205.0,ALT
+2025-03-25,6.0,"BUN, Bld"
+2025-03-25,19.8,C4 Complement
+2025-03-25,0.1,"Bilirubin, Direct"
+2025-03-25,162.0,AST
+2025-03-25,21.2,PTT
+2025-03-25,0.04,"Basophils, Absolute"
+2025-03-25,0.12,"Eosinophils, Absolute"
+2025-03-25,1.43,"Monocytes, Absolute"
+2025-03-25,8.48,"Lymphocytes, Absolute"
+2025-03-25,4.25,ANC
+2025-03-25,0.3,Basophils
+2025-03-25,9.9,Monocytes
+2025-03-25,0.3,Total Bilirubin
+2025-04-01,18.8,RDW
+2025-04-01,462.0,Platelet
+2025-04-01,8.8,MPV
+2025-04-01,0.0,Bands
+2025-04-01,12.2,Protime
+2025-04-01,0.9,INR
+2025-04-01,24.2,Neutrophils
+2025-04-01,4.9,High-Sensitivity Troponin I
+2025-04-01,30.2,MCHC
+2025-04-01,1.0,Hypochromia
+2025-04-01,37.4,Hematocrit
+2025-04-01,11.3,Hgb
+2025-04-01,6.6,RBC
+2025-04-01,13.6,WBC
+2025-04-01,1.0,Schistocytes
+2025-04-01,1.0,Ovalocytes
+2025-04-01,3.0,Microcytes
+2025-04-01,66.7,Lymphocytes
+2025-04-01,17.1,MCH
+2025-04-01,56.7,MCV
+2025-04-01,0.8,Eosinophils
+2025-04-01,4434.0,Total CK
+2025-04-01,0.1,Creatinine
+2025-04-01,19.0,GGT
+2025-04-01,141.0,AST
+2025-04-01,191.0,ALT
+2025-04-01,5.0,Monocytes
+2025-04-01,18.0,C4 Complement
+2025-04-01,0.2,"Bilirubin, Direct"
+2025-04-01,0.3,Total Bilirubin
+2025-04-01,6.0,"BUN, Bld"
+2025-04-01,100.2,C3 Complement
+2025-04-01,22.1,PTT
+2025-04-01,3.29,"Neutrophils, Absolute"
+2025-04-01,9.41,"Lymphocytes, Absolute"
+2025-04-01,0.8,Basophils
+2025-04-01,0.11,"Basophils, Absolute"
+2025-04-01,0.11,"Eosinophils, Absolute"
+2025-04-01,0.68,"Monocytes, Absolute"
+2025-04-08,34.5,Neutrophils
+2025-04-08,0.8,INR
+2025-04-08,11.9,Protime
+2025-04-08,4.3,High-Sensitivity Troponin I
+2025-04-08,8.7,MPV
+2025-04-08,527.0,Platelet
+2025-04-08,19.3,RDW
+2025-04-08,30.8,MCHC
+2025-04-08,1.0,Hypochromia
+2025-04-08,56.3,MCV
+2025-04-08,37.7,Hematocrit
+2025-04-08,11.6,Hgb
+2025-04-08,6.7,RBC
+2025-04-08,13.2,WBC
+2025-04-08,1.0,Schistocytes
+2025-04-08,1.0,Target Cells
+2025-04-08,3.0,Microcytes
+2025-04-08,0.0,Bands
+2025-04-08,17.3,MCH
+2025-04-08,51.7,Lymphocytes
+2025-04-08,110.7,C3 Complement
+2025-04-08,3.4,Monocytes
+2025-04-08,3807.0,Total CK
+2025-04-08,0.18,Creatinine
+2025-04-08,16.0,GGT
+2025-04-08,130.0,AST
+2025-04-08,183.0,ALT
+2025-04-08,7.0,"BUN, Bld"
+2025-04-08,21.1,C4 Complement
+2025-04-08,0.1,"Bilirubin, Direct"
+2025-04-08,0.3,Total Bilirubin
+2025-04-08,22.3,PTT
+2025-04-08,0.0,"Eosinophils, Absolute"
+2025-04-08,0.22,"Basophils, Absolute"
+2025-04-08,0.45,"Monocytes, Absolute"
+2025-04-08,7.96,"Lymphocytes, Absolute"
+2025-04-08,4.55,"Neutrophils, Absolute"
+2025-04-08,1.7,Basophils
+2025-04-08,0.0,Eosinophils
+2025-04-08,2.0,Anisocytosis
