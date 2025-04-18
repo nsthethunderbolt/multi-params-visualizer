@@ -94,6 +94,13 @@ def populate_stored_csv(op_csv, param_list):
     df=df[df['Component'].isin(param_list)]
     df=df[['Analysis Time','Value','Component']]
     df.columns=['Date','Value','Parameter']
+    df['Value'] = df['Value'].str.replace('<', '')
+    df['Value'] = df['Value'].str.replace('>', '')
+    df['Value'] = df['Value'].str.replace('+', '')
+    df['Value'] = df['Value'].str.replace(',', '')
+
+    df['Value'] = df['Value'].apply(lambda x: x['content'] if isinstance(x, dict) and 'content' in x else x)
+
     shutil.copy('stored_data.csv', 'stored_data.csv.bak')
     df.to_csv('stored_data.csv', index=False)
 

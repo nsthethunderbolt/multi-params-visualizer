@@ -11,7 +11,7 @@ Date,Value,Parameter
 01/08/2025,6.03,RBC
 01/08/2025,10.2,WBC
 01/08/2025,0.4,Total Bilirubin
-01/08/2025,<2.70,High-Sensitivity Troponin I
+01/08/2025,2.70,High-Sensitivity Troponin I
 01/08/2025,452,ALT
 01/08/2025,95,Alkaline Phosphatase
 01/08/2025,4.7,Albumin
@@ -28,7 +28,7 @@ Date,Value,Parameter
 01/08/2025,86,Glucose Random
 01/08/2025,13.0,Protime
 01/08/2025,0.29,"Eosinophils, Absolute"
-01/08/2025,"29,692",Total CK
+01/08/2025,29692,Total CK
 01/08/2025,10,GGT
 01/08/2025,5.5,Hemoglobin A1C
 01/08/2025,2.0,Magnesium
@@ -40,7 +40,7 @@ Date,Value,Parameter
 01/08/2025,23.8,"Vit D, 25-Hydroxy"
 01/08/2025,0.03,"Basophils, Absolute"
 01/08/2025,0.9,INR
-01/08/2025,1+,Schistocytes
+01/08/2025,1,Schistocytes
 01/08/2025,4.25,"Lymphocytes, Absolute"
 01/08/2025,5.20,ANC
 01/08/2025,0.3,Basophils
@@ -50,17 +50,8 @@ Date,Value,Parameter
 01/08/2025,0.3,Auto IG%
 01/08/2025,51.0,Neutrophils
 01/08/2025,108.3,C3 Complement
-01/08/2025,{'content': '149.2'},eGFR (CKiD equation 2012)
 01/08/2025,0.78,Cystatin C
 01/08/2025,0.40,"Monocytes, Absolute"
-01/11/2025,{'content': '21.2'},Varicella Zoster IGG
-01/12/2025,{'content': '0.30'},Varicella IgM
-01/16/2025,See Scanned Report,Anti-AAVRh74
-01/26/2025,2.06,QuantiFERON Mitogen minus NIL
-01/26/2025,0.01,Quantiferon Plus TB2 minus NIL
-01/26/2025,0.01,Quantiferon Plus TB1 minus NIL
-01/26/2025,{'content': 'Negative'},Quantiferon TB Gold Plus
-01/26/2025,0.03,QuantiFERON NIL
 01/29/2025,59,Iron
 01/29/2025,307,TIBC
 01/29/2025,3.23,ANC
@@ -73,9 +64,9 @@ Date,Value,Parameter
 01/29/2025,248,Unsaturated Iron Binding Capacity
 01/29/2025,5.68,RBC
 01/29/2025,8.4,WBC
-01/29/2025,1+,Target Cells
-01/29/2025,1+,Microcytes
-01/29/2025,2+,Hypochromia
+01/29/2025,1,Target Cells
+01/29/2025,1,Microcytes
+01/29/2025,2,Hypochromia
 01/29/2025,55.3,MCV
 01/29/2025,38.3,Neutrophils
 01/29/2025,18.1,RDW
@@ -97,10 +88,10 @@ Date,Value,Parameter
 01/30/2025,Yes,Capillary
 01/30/2025,94.4,Hgb A %
 01/30/2025,5.3,Hgb A2 %
-01/30/2025,<0.5,Hgb F %
+01/30/2025,0.5,Hgb F %
 02/28/2025,499,Platelet
 02/28/2025,8.8,MPV
-02/28/2025,<2.70,High-Sensitivity Troponin I
+02/28/2025,2.70,High-Sensitivity Troponin I
 02/28/2025,68.7,Neutrophils
 02/28/2025,0.9,INR
 02/28/2025,97.7,C3 Complement
@@ -112,16 +103,15 @@ Date,Value,Parameter
 02/28/2025,33.2,Hematocrit
 02/28/2025,10.2,Hgb
 02/28/2025,5.95,RBC
-02/28/2025,1+,Schistocytes
-02/28/2025,1+,Ovalocytes
-02/28/2025,1+,Polychromasia
+02/28/2025,1,Schistocytes
+02/28/2025,1,Ovalocytes
+02/28/2025,1,Polychromasia
 02/28/2025,17.1,MCH
 02/28/2025,0.7,Auto IG%
 02/28/2025,0.06,"Basophils, Absolute"
 02/28/2025,10.1,Monocytes
 02/28/2025,18.7,Lymphocytes
-02/28/2025,"9,323",Total CK
-02/28/2025,{'content': '268.5'},eGFR (Bedside Schwartz 2009)
+02/28/2025,9323,Total CK
 02/28/2025,12,GGT
 02/28/2025,203,AST
 02/28/2025,366,ALT
@@ -157,8 +147,7 @@ Date,Value,Parameter
 03/01/2025,235,AST
 03/01/2025,357,ALT
 03/01/2025,0.3,Total Bilirubin
-03/01/2025,{'content': '437.8'},eGFR (Bedside Schwartz 2009)
-03/01/2025,<2.70,High-Sensitivity Troponin I
+03/01/2025,2.70,High-Sensitivity Troponin I
 03/01/2025,4.3,Phosphorus
 03/01/2025,9,Lipase
 03/01/2025,{'content': '4.7'},Potassium
@@ -167,13 +156,12 @@ Date,Value,Parameter
 03/01/2025,21,CO2
 03/01/2025,7.3,Total Protein
 03/01/2025,4.2,Albumin
-03/02/2025,1+,Target Cells
-03/02/2025,1+,Microcytes
-03/02/2025,1+,Hypochromia
+03/02/2025,1,Target Cells
+03/02/2025,1,Microcytes
+03/02/2025,1,Hypochromia
 03/02/2025,0.0,Bands
 03/02/2025,46.2,Lymphocytes
 03/02/2025,48.7,Neutrophils
-03/02/2025,117,Total cells screened
 03/02/2025,0.00,"Eosinophils, Absolute"
 03/02/2025,0.07,"Basophils, Absolute"
 03/02/2025,0.34,"Monocytes, Absolute"
@@ -182,15 +170,12 @@ Date,Value,Parameter
 03/02/2025,0.9,Basophils
 03/02/2025,0.0,Eosinophils
 03/02/2025,4.3,Monocytes
-03/02/2025,0.0,Atypical Lymphocytes
 03/02/2025,3.70,"Lymphocytes, Absolute"
 03/04/2025,11.3,Monocytes
-03/04/2025,0.0,Atypical Lymphocytes
 03/04/2025,67.0,Lymphocytes
-03/04/2025,0.9,Myelocytes
 03/04/2025,0.0,Bands
 03/04/2025,20.0,Neutrophils
-03/04/2025,<2.70,High-Sensitivity Troponin I
+03/04/2025,2.70,High-Sensitivity Troponin I
 03/04/2025,12.3,Protime
 03/04/2025,8.8,MPV
 03/04/2025,334,Platelet
@@ -203,8 +188,7 @@ Date,Value,Parameter
 03/04/2025,86.0,C3 Complement
 03/04/2025,10.12,"Lymphocytes, Absolute"
 03/04/2025,56.1,MCV
-03/04/2025,"8,781",Total CK
-03/04/2025,{'content': '437.8'},eGFR (Bedside Schwartz 2009)
+03/04/2025,8781,Total CK
 03/04/2025,13,GGT
 03/04/2025,209,AST
 03/04/2025,299,ALT
@@ -213,7 +197,6 @@ Date,Value,Parameter
 03/04/2025,0.1,"Bilirubin, Direct"
 03/04/2025,0.2,Total Bilirubin
 03/04/2025,22.5,PTT
-03/04/2025,115,Total cells screened
 03/04/2025,0.00,"Eosinophils, Absolute"
 03/04/2025,0.14,"Basophils, Absolute"
 03/04/2025,1.71,"Monocytes, Absolute"
@@ -221,17 +204,16 @@ Date,Value,Parameter
 03/04/2025,0.10,Creatinine
 03/04/2025,{'content': '35.5'},Hematocrit
 03/04/2025,6.33,RBC
-03/04/2025,2+,Anisocytosis
-03/04/2025,1+,Polychromasia
-03/04/2025,2+,Hypochromia
+03/04/2025,2,Anisocytosis
+03/04/2025,1,Polychromasia
+03/04/2025,2,Hypochromia
 03/04/2025,10.7,Hgb
-03/04/2025,1+,Target Cells
-03/04/2025,1+,Schistocytes
+03/04/2025,1,Target Cells
+03/04/2025,1,Schistocytes
 03/04/2025,15.1,WBC
-03/04/2025,3+,Microcytes
+03/04/2025,3,Microcytes
 03/11/2025,30.3,MCHC
 03/11/2025,13.6,Monocytes
-03/11/2025,0.0,Atypical Lymphocytes
 03/11/2025,61.9,Lymphocytes
 03/11/2025,0.0,Bands
 03/11/2025,9.1,MPV
@@ -243,16 +225,15 @@ Date,Value,Parameter
 03/11/2025,10.9,Hgb
 03/11/2025,0.0,Eosinophils
 03/11/2025,11.1,WBC
-03/11/2025,1+,Schistocytes
-03/11/2025,1+,Target Cells
-03/11/2025,3+,Microcytes
-03/11/2025,2+,Anisocytosis
+03/11/2025,1,Schistocytes
+03/11/2025,1,Target Cells
+03/11/2025,3,Microcytes
+03/11/2025,2,Anisocytosis
 03/11/2025,56.3,MCV
 03/11/2025,0.8,Basophils
 03/11/2025,23.7,Neutrophils
 03/11/2025,6.87,"Lymphocytes, Absolute"
 03/11/2025,2.63,"Neutrophils, Absolute"
-03/11/2025,{'content': '332.0'},eGFR (Bedside Schwartz 2009)
 03/11/2025,0.13,Creatinine
 03/11/2025,17,GGT
 03/11/2025,237,AST
@@ -261,19 +242,18 @@ Date,Value,Parameter
 03/11/2025,15.9,C4 Complement
 03/11/2025,0.2,"Bilirubin, Direct"
 03/11/2025,0.4,Total Bilirubin
-03/11/2025,"8,670",Total CK
+03/11/2025,8670,Total CK
 03/11/2025,92.7,C3 Complement
 03/11/2025,21.8,PTT
 03/11/2025,0.09,"Basophils, Absolute"
 03/11/2025,0.00,"Eosinophils, Absolute"
-03/11/2025,118,Total cells screened
 03/11/2025,1.51,"Monocytes, Absolute"
-03/11/2025,<2.70,High-Sensitivity Troponin I
+03/11/2025,2.70,High-Sensitivity Troponin I
 03/11/2025,12.7,Protime
 03/11/2025,0.9,INR
 03/18/2025,17.1,MCH
 03/18/2025,12.5,Protime
-03/18/2025,<2.70,High-Sensitivity Troponin I
+03/18/2025,2.70,High-Sensitivity Troponin I
 03/18/2025,9.1,MPV
 03/18/2025,586,Platelet
 03/18/2025,18.7,RDW
@@ -283,19 +263,18 @@ Date,Value,Parameter
 03/18/2025,14.4,WBC
 03/18/2025,10.8,Hgb
 03/18/2025,6.31,RBC
-03/18/2025,1+,Schistocytes
-03/18/2025,1+,Target Cells
-03/18/2025,2+,Microcytes
-03/18/2025,1+,Hypochromia
-03/18/2025,2+,Anisocytosis
+03/18/2025,1,Schistocytes
+03/18/2025,1,Target Cells
+03/18/2025,2,Microcytes
+03/18/2025,1,Hypochromia
+03/18/2025,2,Anisocytosis
 03/18/2025,32.2,Neutrophils
 03/18/2025,35.3,Hematocrit
 03/18/2025,0.0,Bands
 03/18/2025,17.7,C4 Complement
-03/18/2025,0.0,Atypical Lymphocytes
-03/18/2025,"9,218",Total CK
+03/18/2025,9218,Total CK
 03/18/2025,63.6,Lymphocytes
-03/18/2025,<0.10,Creatinine
+03/18/2025,0.10,Creatinine
 03/18/2025,17,GGT
 03/18/2025,204,AST
 03/18/2025,252,ALT
@@ -303,7 +282,6 @@ Date,Value,Parameter
 03/18/2025,0.2,"Bilirubin, Direct"
 03/18/2025,0.3,Total Bilirubin
 03/18/2025,22.5,PTT
-03/18/2025,121,Total cells screened
 03/18/2025,0.00,"Eosinophils, Absolute"
 03/18/2025,0.12,"Basophils, Absolute"
 03/18/2025,0.48,"Monocytes, Absolute"
@@ -321,22 +299,21 @@ Date,Value,Parameter
 03/25/2025,30.2,MCHC
 03/25/2025,4.50,High-Sensitivity Troponin I
 03/25/2025,17.1,MCH
-03/25/2025,2+,Anisocytosis
+03/25/2025,2,Anisocytosis
 03/25/2025,37.1,Hematocrit
 03/25/2025,11.2,Hgb
 03/25/2025,6.56,RBC
 03/25/2025,14.4,WBC
-03/25/2025,1+,Tear Drop Cells
-03/25/2025,1+,Schistocytes
-03/25/2025,1+,Target Cells
-03/25/2025,1+,Microcytes
+03/25/2025,1,Tear Drop Cells
+03/25/2025,1,Schistocytes
+03/25/2025,1,Target Cells
+03/25/2025,1,Microcytes
 03/25/2025,104.6,C3 Complement
 03/25/2025,56.6,MCV
 03/25/2025,29.5,Neutrophils
 03/25/2025,0.8,Eosinophils
 03/25/2025,58.9,Lymphocytes
-03/25/2025,"5,194",Total CK
-03/25/2025,{'content': '324.5'},eGFR (Bedside Schwartz 2009)
+03/25/2025,5194,Total CK
 03/25/2025,0.14,Creatinine
 03/25/2025,15,GGT
 03/25/2025,0.6,Auto IG%
@@ -363,21 +340,20 @@ Date,Value,Parameter
 04/01/2025,24.2,Neutrophils
 04/01/2025,4.90,High-Sensitivity Troponin I
 04/01/2025,30.2,MCHC
-04/01/2025,1+,Hypochromia
+04/01/2025,1,Hypochromia
 04/01/2025,37.4,Hematocrit
 04/01/2025,11.3,Hgb
 04/01/2025,6.60,RBC
 04/01/2025,13.6,WBC
-04/01/2025,1+,Schistocytes
-04/01/2025,1+,Ovalocytes
-04/01/2025,3+,Microcytes
+04/01/2025,1,Schistocytes
+04/01/2025,1,Ovalocytes
+04/01/2025,3,Microcytes
 04/01/2025,66.7,Lymphocytes
 04/01/2025,17.1,MCH
-04/01/2025,2.5,Atypical Lymphocytes
 04/01/2025,56.7,MCV
 04/01/2025,0.8,Eosinophils
-04/01/2025,"4,434",Total CK
-04/01/2025,<0.10,Creatinine
+04/01/2025,4434,Total CK
+04/01/2025,0.10,Creatinine
 04/01/2025,19,GGT
 04/01/2025,141,AST
 04/01/2025,191,ALT
@@ -388,13 +364,11 @@ Date,Value,Parameter
 04/01/2025,6,"BUN, Bld"
 04/01/2025,100.2,C3 Complement
 04/01/2025,22.1,PTT
-04/01/2025,1.7,NRBCs/100
 04/01/2025,3.29,"Neutrophils, Absolute"
 04/01/2025,9.41,"Lymphocytes, Absolute"
 04/01/2025,0.8,Basophils
 04/01/2025,0.11,"Basophils, Absolute"
 04/01/2025,0.11,"Eosinophils, Absolute"
-04/01/2025,120,Total cells screened
 04/01/2025,0.68,"Monocytes, Absolute"
 04/08/2025,34.5,Neutrophils
 04/08/2025,0.8,INR
@@ -404,22 +378,21 @@ Date,Value,Parameter
 04/08/2025,527,Platelet
 04/08/2025,19.3,RDW
 04/08/2025,30.8,MCHC
-04/08/2025,1+,Hypochromia
+04/08/2025,1,Hypochromia
 04/08/2025,56.3,MCV
 04/08/2025,37.7,Hematocrit
 04/08/2025,11.6,Hgb
 04/08/2025,6.70,RBC
 04/08/2025,13.2,WBC
-04/08/2025,1+,Schistocytes
-04/08/2025,1+,Target Cells
-04/08/2025,3+,Microcytes
+04/08/2025,1,Schistocytes
+04/08/2025,1,Target Cells
+04/08/2025,3,Microcytes
 04/08/2025,0.0,Bands
 04/08/2025,17.3,MCH
 04/08/2025,51.7,Lymphocytes
 04/08/2025,110.7,C3 Complement
 04/08/2025,3.4,Monocytes
-04/08/2025,"3,807",Total CK
-04/08/2025,{'content': '252.4'},eGFR (Bedside Schwartz 2009)
+04/08/2025,3807,Total CK
 04/08/2025,0.18,Creatinine
 04/08/2025,16,GGT
 04/08/2025,130,AST
@@ -429,7 +402,6 @@ Date,Value,Parameter
 04/08/2025,0.1,"Bilirubin, Direct"
 04/08/2025,0.3,Total Bilirubin
 04/08/2025,22.3,PTT
-04/08/2025,116,Total cells screened
 04/08/2025,0.00,"Eosinophils, Absolute"
 04/08/2025,0.22,"Basophils, Absolute"
 04/08/2025,0.45,"Monocytes, Absolute"
@@ -437,63 +409,20 @@ Date,Value,Parameter
 04/08/2025,4.55,"Neutrophils, Absolute"
 04/08/2025,1.7,Basophils
 04/08/2025,0.0,Eosinophils
-04/08/2025,8.6,Atypical Lymphocytes
-04/08/2025,2+,Anisocytosis
-,content,@colspan
-,89,Ventricular Rate
-,89,Atrial Rate
-,106,P-R Interval
-,68,QRS Duration
-,328,Q-T Interval
-,399,QTc Calculation(Bazett)
-,373,QTc Fredericia
+04/08/2025,2,Anisocytosis
 ,Normal sinus rhythm,Diagnosis
 ,Possible Left ventricular hypertrophy,Diagnosis
-,"When compared with ECG of 04-MAR-2025 13:52,",Diagnosis
+,When compared with ECG of 04-MAR-2025 13:52,Diagnosis
 ,No significant change was found,Diagnosis
-,content,@colspan
-,content,@colspan
-,86,Ventricular Rate
-,86,Atrial Rate
-,108,P-R Interval
-,72,QRS Duration
-,342,Q-T Interval
-,409,QTc Calculation(Bazett)
-,385,QTc Fredericia
 ,Normal sinus rhythm,Diagnosis
-,"Deep Q wave in lead V6, Possible Left ventricular hypertrophy",Diagnosis
-,"When compared with ECG of 01-MAR-2025 22:26,",Diagnosis
+,Deep Q wave in lead V6 Possible Left ventricular hypertrophy,Diagnosis
+,When compared with ECG of 01-MAR-2025 22:26,Diagnosis
 ,No significant change was found,Diagnosis
-,content,@colspan
-,content,@colspan
-,content,@colspan
-,content,@colspan
-,content,@colspan
-,77,Ventricular Rate
-,77,Atrial Rate
-,110,P-R Interval
-,68,QRS Duration
-,382,Q-T Interval
-,433,QTc Calculation(Bazett)
-,415,QTc Fredericia
 ,** * Pediatric ECG analysis * **,Diagnosis
 ,Normal sinus rhythm,Diagnosis
-,"Deep Q wave in lead V6, Possible Left ventricular hypertrophy",Diagnosis
-,"When compared with ECG of 08-JAN-2025 11:04,",Diagnosis
+,Deep Q wave in lead V6 Possible Left ventricular hypertrophy,Diagnosis
+,When compared with ECG of 08-JAN-2025 11:04,Diagnosis
 ,No significant change was found,Diagnosis
-,content,@colspan
-,content,@colspan
-,content,@colspan
-,content,@colspan
-,content,@colspan
-,content,@colspan
-,105,Ventricular Rate
-,105,Atrial Rate
-,98,P-R Interval
-,74,QRS Duration
-,308,Q-T Interval
-,407,QTc Calculation(Bazett)
-,371,QTc Fredericia
 ,Normal sinus rhythm,Diagnosis
 ,Possible Left ventricular hypertrophy,Diagnosis
 ,No previous ECGs available,Diagnosis

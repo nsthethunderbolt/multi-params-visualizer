@@ -5,7 +5,6 @@ Albumin
 Alkaline Phosphatase
 Anion Gap
 Anisocytosis
-Anti-AAVRh74
 Auto IG%
 BNP
 BUN, Bld
@@ -54,16 +53,12 @@ Neutrophils
 Neutrophils, Absolute
 Ovalocytes
 PTT
-Pathologist Interp
 Phosphorus
 Platelet
 Polychromasia
 Potassium
 Prior Transfusion?
 Protime
-Quantiferon Plus TB1 minus NIL
-Quantiferon Plus TB2 minus NIL
-Quantiferon TB Gold Plus
 RBC
 RDW
 Reticulocytes
@@ -78,6 +73,5 @@ Total Bilirubin
 Total CK
 Total Protein
 Unsaturated Iron Binding Capacity
-Varicella IgM
 Vit D, 25-Hydroxy
 WBC

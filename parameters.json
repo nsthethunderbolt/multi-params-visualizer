@@ -35,11 +35,6 @@
             "min": 0,
             "max": 0
         },
-        "Anti-AAVRh74": {
-            "unit": "",
-            "min": 0,
-            "max": 0
-        },
         "Auto IG%": {
             "unit": "%",
             "min": "0.0",
@@ -315,21 +310,6 @@
             "min": "12.0",
             "max": "15.3"
         },
-        "Quantiferon Plus TB1 minus NIL": {
-            "unit": "",
-            "min": -1,
-            "max": 0.34
-        },
-        "Quantiferon Plus TB2 minus NIL": {
-            "unit": "",
-            "min": -1,
-            "max": 0.34
-        },
-        "Quantiferon TB Gold Plus": {
-            "unit": "",
-            "min": "Negative",
-            "max": "Negative"
-        },
         "RBC": {
             "unit": "10*6/uL",
             "min": "3.90",
@@ -399,11 +379,6 @@
             "unit": "ug/dL",
             "min": "69",
             "max": "240"
-        },
-        "Varicella IgM": {
-            "unit": "",
-            "min": -1,
-            "max": 0.9
         },
         "Vit D, 25-Hydroxy": {
             "unit": "ng/mL",

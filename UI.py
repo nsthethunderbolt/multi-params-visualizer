@@ -105,7 +105,7 @@ class UI:
         n_params = len(unique_params)
         n_cols = 2  # Number of columns in the grid
         n_rows = (n_params + n_cols - 1) // n_cols  # Calculate number of rows needed
-        
+        df['Value'] = df['Value'].astype(float)
         # Create subplots
         for idx, param in enumerate(unique_params):
             ax = self.fig.add_subplot(n_rows, n_cols, idx + 1)
@@ -113,6 +113,7 @@ class UI:
             param_info = self.ps.parameters[param]
             #print(f"Plotting {param_info} with data: {param_data}")
             # Split data into normal and abnormal ranges
+            print(f"Normal range for {param}: {param_info['min']} - {param_info['max']} , value: {param_data['Value']}")
             normal_mask = (param_data['Value'] >= param_info['min']) & (param_data['Value'] <= param_info['max'])
             abnormal_mask = ~normal_mask
             
