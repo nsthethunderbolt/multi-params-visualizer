@@ -5,7 +5,9 @@ from dash import Dash, dcc, html
 import dash_bootstrap_components as dbc
 import config
 import webbrowser
-import iqpr
+import ipqr
+import threading
+import time
 
 # === Load Data ===
 df = pd.read_csv(config.data_file)
@@ -89,8 +91,14 @@ app.layout = dbc.Container([
     html.Div(graphs, style={"maxHeight": "90vh", "overflowY": "scroll"})
 ], fluid=True)
 
-
-if __name__ == '__main__':
+def run_server():
     app.run(host='0.0.0.0',port=8050, debug=False, use_reloader=False)
-    webbrowser.open("http://127.0.0.1:8050")
-    iqpr.showqr()
+if __name__ == '__main__':
+      # Start server in a background thread
+    threading.Thread(target=run_server, daemon=False).start()
+
+    # Small delay to ensure server has started
+    time.sleep(2)
+    webbrowser.open("http://127.0.0.1:8050", new=1)
+    time.sleep(3)
+    ipqr.showqr()

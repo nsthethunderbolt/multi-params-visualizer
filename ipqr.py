@@ -1,5 +1,6 @@
 import qrcode
 import socket
+import time
 
 # Get local IP
 def get_ip():
@@ -24,5 +25,3 @@ def showqr():
     qr.make()
     qr.print_ascii()  # You can scan directly from terminal 🎯
 
-
-showqr()
