@@ -3,372 +3,446 @@
         "ALT": {
             "unit": "U/L",
             "min": 10.0,
-            "max": 50.0
+            "max": 50.0,
+            "description": "Enzyme that indicates liver function or damage."
         },
         "ANC": {
             "unit": "10*3/uL",
             "min": 1.6,
-            "max": 7.3
+            "max": 7.3,
+            "description": "Absolute neutrophil count; reflects immune response capability."
         },
         "AST": {
             "unit": "U/L",
             "min": 21.0,
-            "max": 44.0
+            "max": 44.0,
+            "description": "Liver enzyme that also indicates muscle and heart health."
         },
         "Albumin": {
             "unit": "g/dL",
             "min": 3.5,
-            "max": 4.8
+            "max": 4.8,
+            "description": "Protein in blood that helps maintain fluid balance."
         },
         "Alkaline Phosphatase": {
             "unit": "U/L",
             "min": 130.0,
-            "max": 325.0
+            "max": 325.0,
+            "description": "Enzyme linked to liver, bile ducts, and bone health."
         },
         "Anion Gap": {
             "unit": "meq/L",
             "min": 7.0,
-            "max": 16.0
+            "max": 16.0,
+            "description": "Measurement used to identify cause of metabolic acidosis."
         },
         "Anisocytosis": {
             "unit": "",
             "min": 0,
-            "max": 0
+            "max": 0,
+            "description": "Variation in red blood cell sizes; indicates anemia."
         },
         "Auto IG%": {
             "unit": "%",
             "min": 0.0,
-            "max": 1.6
+            "max": 1.6,
+            "description": "Percentage of immature granulocytes; signals infection or inflammation."
         },
         "BNP": {
             "unit": "pg/mL",
             "min": 10.0,
-            "max": 120.0
+            "max": 120.0,
+            "description": "Hormone released from heart; used to detect heart failure."
         },
         "BUN, Bld": {
             "unit": "mg/dL",
             "min": 5.0,
-            "max": 18.0
+            "max": 18.0,
+            "description": "Blood Urea Nitrogen; reflects kidney function."
         },
         "Bands": {
             "unit": "%",
             "min": 0.0,
-            "max": 11.0
+            "max": 11.0,
+            "description": "Immature white blood cells; indicates infection or inflammation."
         },
         "Basophils": {
             "unit": "%",
             "min": 0.0,
-            "max": 2.0
+            "max": 2.0,
+            "description": "White blood cells involved in allergic and inflammatory reactions."
         },
         "Basophils, Absolute": {
             "unit": "10*3/uL",
             "min": 0.0,
-            "max": 0.3
+            "max": 0.3,
+            "description": "Absolute count of basophils in blood."
         },
         "Bilirubin, Direct": {
             "unit": "mg/dL",
             "min": 0.1,
-            "max": 0.3
+            "max": 0.3,
+            "description": "Conjugated bilirubin; elevated in liver dysfunction."
         },
         "C3 Complement": {
             "unit": "mg/dL",
             "min": 80.0,
-            "max": 173.0
+            "max": 173.0,
+            "description": "Part of immune system; used to assess immune response."
         },
         "C4 Complement": {
             "unit": "mg/dL",
             "min": 13.0,
-            "max": 46.0
+            "max": 46.0,
+            "description": "Protein involved in immune response and inflammation."
         },
         "CO2": {
             "unit": "meq/L",
             "min": 18.0,
-            "max": 31.0
+            "max": 31.0,
+            "description": "Measures bicarbonate; reflects blood\u2019s acid-base balance."
         },
         "Calcium": {
             "unit": "mg/dL",
             "min": 8.0,
-            "max": 11.0
+            "max": 11.0,
+            "description": "Essential mineral for bones, muscles, and nerve function."
         },
         "Calcium, Ion": {
             "unit": "mmol/L",
             "min": 1.12,
-            "max": 1.32
+            "max": 1.32,
+            "description": "Biologically active form of calcium in blood."
         },
         "Chloride": {
             "unit": "meq/L",
             "min": 98.0,
-            "max": 106.0
+            "max": 106.0,
+            "description": "Electrolyte that helps maintain fluid and acid-base balance."
         },
         "Creatinine": {
             "unit": "mg/dL",
             "min": 0.2,
-            "max": 0.5
+            "max": 0.5,
+            "description": "Waste product filtered by kidneys; indicates kidney health."
         },
         "Cystatin C": {
             "unit": "mg/L",
             "min": 0.6,
-            "max": 1.6
+            "max": 1.6,
+            "description": "Biomarker for early detection of kidney dysfunction."
         },
         "Diagnosis": {
             "unit": "",
             "min": 0,
-            "max": 0
+            "max": 0,
+            "description": "Clinical identification of a disease or condition."
         },
         "Eosinophils": {
             "unit": "%",
             "min": 0.0,
-            "max": 5.0
+            "max": 5.0,
+            "description": "White blood cells involved in allergic reactions and parasitic infections."
         },
         "Eosinophils, Absolute": {
             "unit": "10*3/uL",
             "min": 0.0,
-            "max": 0.7
+            "max": 0.7,
+            "description": "Absolute count of eosinophils in blood."
         },
         "Ferritin": {
             "unit": "ng/mL",
             "min": 5.3,
-            "max": 99.9
+            "max": 99.9,
+            "description": "Protein that stores iron; indicates iron levels in the body."
         },
         "GGT": {
             "unit": "U/L",
             "min": 7.0,
-            "max": 22.0
+            "max": 22.0,
+            "description": "Liver enzyme elevated in bile duct issues and alcohol use."
         },
         "Glucose Random": {
             "unit": "mg/dL",
             "min": 60.0,
-            "max": 106.0
+            "max": 106.0,
+            "description": "Blood sugar level at any given time."
         },
         "Hematocrit": {
             "unit": "%",
             "min": 34.0,
-            "max": 44.0
+            "max": 44.0,
+            "description": "Proportion of red blood cells in blood volume."
         },
         "Hemoglobin A1C": {
             "unit": "",
             "min": -1,
-            "max": 5.7
+            "max": 5.7,
+            "description": "Average blood glucose over 2\u20133 months."
         },
         "Hgb": {
             "unit": "g/dL",
             "min": 11.3,
-            "max": 14.6
+            "max": 14.6,
+            "description": "Hemoglobin; carries oxygen in red blood cells."
         },
         "Hgb A %": {
             "unit": "%",
             "min": 95.0,
-            "max": 100.0
+            "max": 100.0,
+            "description": "Percentage of adult hemoglobin A in blood."
         },
         "Hgb A2 %": {
             "unit": "%",
             "min": 1.5,
-            "max": 3.7
+            "max": 3.7,
+            "description": "Minor hemoglobin component; used in diagnosing thalassemia."
         },
         "Hgb F %": {
             "unit": "%",
             "min": 0.0,
-            "max": 2.0
+            "max": 2.0,
+            "description": "Fetal hemoglobin percentage; elevated in certain blood disorders."
         },
         "High-Sensitivity Troponin I": {
             "unit": "",
             "min": -1,
-            "max": 30.9
+            "max": 30.9,
+            "description": "Sensitive marker for heart muscle injury."
         },
         "Hypochromia": {
             "unit": "",
             "min": 0,
-            "max": 0
+            "max": 0,
+            "description": "Red blood cells with less color; suggests iron-deficiency anemia."
         },
         "INR": {
             "unit": "",
             "min": 0.9,
-            "max": 1.2
+            "max": 1.2,
+            "description": "Standardized measure of blood clotting time."
         },
         "Iron": {
             "unit": "ug/dL",
             "min": 50.0,
-            "max": 120.0
+            "max": 120.0,
+            "description": "Mineral necessary for hemoglobin and oxygen transport."
         },
         "Lipase": {
             "unit": "U/L",
             "min": 4.0,
-            "max": 61.0
+            "max": 61.0,
+            "description": "Pancreatic enzyme used to diagnose pancreatitis."
         },
         "Lymphocytes": {
             "unit": "%",
             "min": 27.0,
-            "max": 57.0
+            "max": 57.0,
+            "description": "White blood cells involved in adaptive immunity."
         },
         "Lymphocytes, Absolute": {
             "unit": "10*3/uL",
             "min": 1.4,
-            "max": 7.7
+            "max": 7.7,
+            "description": "Absolute count of lymphocytes in blood."
         },
         "MCH": {
             "unit": "pg",
             "min": 26.0,
-            "max": 34.0
+            "max": 34.0,
+            "description": "Average amount of hemoglobin per red blood cell."
         },
         "MCHC": {
             "unit": "g/dL",
             "min": 33.0,
-            "max": 37.0
+            "max": 37.0,
+            "description": "Concentration of hemoglobin in red blood cells."
         },
         "MCV": {
             "unit": "fL",
             "min": 73.5,
-            "max": 87.0
+            "max": 87.0,
+            "description": "Average volume of red blood cells."
         },
         "MPV": {
             "unit": "fL",
             "min": 9.0,
-            "max": 10.9
+            "max": 10.9,
+            "description": "Average size of platelets; linked to platelet production."
         },
         "Magnesium": {
             "unit": "mg/dL",
             "min": 1.6,
-            "max": 2.5
+            "max": 2.5,
+            "description": "Mineral important for muscle and nerve function."
         },
         "Microcytes": {
             "unit": "",
             "min": 0,
-            "max": 0
+            "max": 0,
+            "description": "Small red blood cells; seen in iron deficiency anemia."
         },
         "Monocytes": {
             "unit": "%",
             "min": 0.0,
-            "max": 10.0
+            "max": 10.0,
+            "description": "White blood cells that help break down bacteria."
         },
         "Monocytes, Absolute": {
             "unit": "10*3/uL",
             "min": 0.0,
-            "max": 1.1
+            "max": 1.1,
+            "description": "Absolute count of monocytes in blood."
         },
         "Neutrophils": {
             "unit": "%",
             "min": 32.0,
-            "max": 54.0
+            "max": 54.0,
+            "description": "Most common white blood cells; fight infection."
         },
         "Neutrophils, Absolute": {
             "unit": "10*3/uL",
             "min": 1.6,
-            "max": 7.3
+            "max": 7.3,
+            "description": "Absolute neutrophil count; vital in infection defense."
         },
         "Ovalocytes": {
             "unit": "",
             "min": 0,
-            "max": 0
+            "max": 0,
+            "description": "Oval-shaped red blood cells; may suggest anemia or genetic disorders."
         },
         "PTT": {
             "unit": "s",
             "min": 21.3,
-            "max": 38.8
+            "max": 38.8,
+            "description": "Partial thromboplastin time; evaluates blood clotting pathways."
         },
         "Phosphorus": {
             "unit": "mg/dL",
             "min": 3.8,
-            "max": 6.8
+            "max": 6.8,
+            "description": "Mineral important for bone health and energy production."
         },
         "Platelet": {
             "unit": "10*3/uL",
             "min": 150.0,
-            "max": 550.0
+            "max": 550.0,
+            "description": "Cells that help blood clot and stop bleeding."
         },
         "Polychromasia": {
             "unit": "",
             "min": 0,
-            "max": 0
+            "max": 0,
+            "description": "Increased immature red blood cells; suggests bone marrow response."
         },
         "Potassium": {
             "unit": "meq/L",
             "min": 3.5,
-            "max": 5.0
+            "max": 5.0,
+            "description": "Electrolyte important for heart and muscle function."
         },
         "Protime": {
             "unit": "s",
             "min": 12.0,
-            "max": 15.3
+            "max": 15.3,
+            "description": "Prothrombin time; measures blood clotting ability."
         },
         "RBC": {
             "unit": "10*6/uL",
             "min": 3.9,
-            "max": 5.3
+            "max": 5.3,
+            "description": "Red blood cell count; carries oxygen through the body."
         },
         "RDW": {
             "unit": "%",
             "min": 11.5,
-            "max": 15.0
+            "max": 15.0,
+            "description": "Red cell distribution width; shows size variation in red cells."
         },
         "Reticulocytes": {
             "unit": "%",
             "min": 0.7,
-            "max": 2.0
+            "max": 2.0,
+            "description": "Immature red blood cells; indicates bone marrow activity."
         },
         "Schistocytes": {
             "unit": "",
             "min": 0,
-            "max": 0
+            "max": 0,
+            "description": "Fragmented red blood cells; seen in severe hemolysis."
         },
         "Sodium": {
             "unit": "meq/L",
             "min": 134.0,
-            "max": 146.0
+            "max": 146.0,
+            "description": "Electrolyte essential for fluid balance and nerve function."
         },
         "T4": {
             "unit": "ug/dL",
             "min": 4.5,
-            "max": 10.9
+            "max": 10.9,
+            "description": "Thyroxine hormone; indicates thyroid gland function."
         },
         "TIBC": {
             "unit": "ug/dL",
             "min": 250.0,
-            "max": 425.0
+            "max": 425.0,
+            "description": "Total iron-binding capacity; assesses iron transport and storage."
         },
         "TSH, High Sensitivity": {
             "unit": "micro[IU]/mL",
             "min": 0.7,
-            "max": 4.17
+            "max": 4.17,
+            "description": "Sensitive test for thyroid-stimulating hormone levels."
         },
         "Target Cells": {
             "unit": "",
             "min": 0,
-            "max": 0
+            "max": 0,
+            "description": "Abnormal red blood cells seen in liver or hemoglobin disorders."
         },
         "Tear Drop Cells": {
             "unit": "",
             "min": 0,
-            "max": 0
+            "max": 0,
+            "description": "Teardrop-shaped red blood cells; associated with bone marrow issues."
         },
         "Total Bilirubin": {
             "unit": "mg/dL",
             "min": 0.1,
-            "max": 0.8
+            "max": 0.8,
+            "description": "Total amount of bilirubin; evaluates liver function."
         },
         "Total CK": {
             "unit": "U/L",
             "min": 21.0,
-            "max": 232.0
+            "max": 232.0,
+            "description": "Creatine kinase total; indicates muscle damage."
         },
         "Total Protein": {
             "unit": "g/dL",
             "min": 6.0,
-            "max": 8.0
+            "max": 8.0,
+            "description": "Measures albumin and globulin levels in blood."
         },
         "Unsaturated Iron Binding Capacity": {
             "unit": "ug/dL",
             "min": 69.0,
-            "max": 240.0
+            "max": 240.0,
+            "description": "Unused capacity of transferrin to bind iron."
         },
         "Vit D, 25-Hydroxy": {
             "unit": "ng/mL",
             "min": 20.0,
-            "max": 50.0
+            "max": 50.0,
+            "description": "Main form of vitamin D in blood; indicates vitamin D status."
         },
         "WBC": {
             "unit": "10*3/uL",
             "min": 5.0,
-            "max": 14.5
+            "max": 14.5,
+            "description": "White blood cell count; reflects immune system activity."
         }
     }
 }

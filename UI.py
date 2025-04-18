@@ -85,8 +85,8 @@ class UI:
 
         # Calculate grid dimensions
         n_params = len(unique_params)
-        n_cols = 2  # Number of columns in the grid
-        n_rows = (n_params + n_cols - 1) // n_cols  # Calculate number of rows needed
+        n_cols = 1  # Number of columns in the grid
+        n_rows = n_params # (n_params + n_cols - 1) // n_cols  # Calculate number of rows needed
         df['Value'] = df['Value'].astype(float)
 
         # Create subplots

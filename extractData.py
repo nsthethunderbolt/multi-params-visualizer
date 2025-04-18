@@ -8,6 +8,7 @@ import ast
 import pandas as pd
 import shutil
 import config
+from data.parameters_to_track import params_to_track  as tracked_params
 header_added = False
 tbody_added = False
 
@@ -76,12 +77,13 @@ def process_json_to_csv(data):
         writer.writerows(rows[0:])  # Write the data rows
     return op_csv
 
-def populate_stored_csv(op_csv, param_list, stored_csv_file, stored_csv_bak_file):
+def populate_stored_csv(op_csv, params_to_track, stored_csv_file, stored_csv_bak_file, manual_prepend_stored_csv):
     df = pd.read_csv(op_csv)
     df=df.sort_values(by='Analysis Time')
-    df=df[df['Component'].isin(param_list)]
+    df=df[df['Component'].isin(params_to_track.keys())]
     df=df[['Analysis Time','Value','Component']]
     df.columns=['Date','Value','Parameter']
+    
     df['Value'] = df['Value'].str.replace('<', '')
     df['Value'] = df['Value'].str.replace('>', '')
     df['Value'] = df['Value'].str.replace('+', '')
@@ -90,13 +92,22 @@ def populate_stored_csv(op_csv, param_list, stored_csv_file, stored_csv_bak_file
     df['Value'] = df['Value'].apply(lambda x: ast.literal_eval(x)['content'] if isinstance(x, str) and 'content' in x else x)
     df = df[df.apply(lambda row: row.count() == 3, axis=1)]
     shutil.copy(stored_csv_file, stored_csv_bak_file)
+
+    df_prepend = pd.read_csv(manual_prepend_stored_csv, skiprows=1, header=None)
+    # Assign columns from df_main to df_prepend
+    df_prepend.columns = df.columns
+
+    # Merge with prepend first
+    df = pd.concat([df_prepend, df], ignore_index=True)
+
+    # Optional: Save to a new CSV file (without index)
     df.to_csv(stored_csv_file, index=False)
 
-def populate_params_json(op_csv, param_list, params_json_file, params_json_bak_file):
+def populate_params_json(op_csv, params_to_track, params_json_file, params_json_bak_file):
     df = pd.read_csv(op_csv)
     script_dir = os.path.dirname(os.path.abspath(__file__))
     json_file_path = os.path.join(script_dir, params_json_file)
-    df=df[df['Component'].isin(param_list)]
+    df=df[df['Component'].isin(params_to_track.keys())]
     df=df.sort_values(by='Component')
     toGetNormalValues=df.groupby(['Component']).first()
     parameters={}
@@ -128,6 +139,7 @@ def populate_params_json(op_csv, param_list, params_json_file, params_json_bak_f
                 if num_part:
                     integer_num = int(num_part)
                     parameters[item[0]] = { "unit": "", "min":integer_num,"max": 10000}
+        parameters[item[0]]['description'] = params_to_track[item[0]]
             
     json_params={'parameters': parameters}
     shutil.copy(json_file_path, params_json_bak_file)
@@ -138,25 +150,12 @@ def populate_params_json(op_csv, param_list, params_json_file, params_json_bak_f
         raise Exception("Error: Could not write JSON file")
 
 
-def read_txt_to_param_list(file_path):
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    json_file_path = os.path.join(script_dir, file_path)
-    try:
-        with open(file_path, 'r') as file:
-            lines = file.readlines()
-        # Remove newline characters from each line
-        return [line.strip() for line in lines]
-    except FileNotFoundError:
-        return f"Error: File not found at {file_path}"
-
-
 if __name__ == "__main__":
     # Parse command-line arguments
     parser = argparse.ArgumentParser(description="Convert XML to JSON and extract data to CSV.")
     parser.add_argument("input_xml", type=str, help="Path to the input XML file")
     args = parser.parse_args()
     print(f"Parameters to track are picked from {config.parameters_to_track_file}")
-    param_list = read_txt_to_param_list(config.parameters_to_track_file)
 
     # Process the input XML file
     input_xml = args.input_xml
@@ -164,10 +163,10 @@ if __name__ == "__main__":
     op_csv = process_json_to_csv(extracted_json)
     print(f"Data extracted to {op_csv}")
 
-    populate_params_json(op_csv, param_list, config.param_file, config.param_file_backup)
+    populate_params_json(op_csv, tracked_params, config.param_file, config.param_file_backup)
     print(f"Parameters are stored in {config.param_file} and backup in {config.param_file_backup}")
 
-    populate_stored_csv(op_csv, param_list, config.data_file, config.data_file_backup)
+    populate_stored_csv(op_csv, tracked_params, config.data_file, config.data_file_backup, config.manual_prepend_stored_csv)
     print(f"Data is stored in {config.data_file} and backup in {config.data_file_backup}")
 
     # Remove the temporary csv file
