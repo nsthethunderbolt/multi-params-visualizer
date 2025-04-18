@@ -149,16 +149,7 @@ def populate_params_json(op_csv, params_to_track, params_json_file, params_json_
     except Exception:
         raise Exception("Error: Could not write JSON file")
 
-
-if __name__ == "__main__":
-    # Parse command-line arguments
-    parser = argparse.ArgumentParser(description="Convert XML to JSON and extract data to CSV.")
-    parser.add_argument("input_xml", type=str, help="Path to the input XML file")
-    args = parser.parse_args()
-    print(f"Parameters to track are picked from {config.parameters_to_track_file}")
-
-    # Process the input XML file
-    input_xml = args.input_xml
+def process(input_xml):
     extracted_json = convert_xml_to_json(input_xml)
     op_csv = process_json_to_csv(extracted_json)
     print(f"Data extracted to {op_csv}")
@@ -175,5 +166,18 @@ if __name__ == "__main__":
         print(f"Temporary file {op_csv} removed.")
     else:
         print(f"Temporary file {op_csv} not found.")
+
+
+if __name__ == "__main__":
+    # Parse command-line arguments
+    parser = argparse.ArgumentParser(description="Convert XML to JSON and extract data to CSV.")
+    parser.add_argument("input_xml", type=str, help="Path to the input XML file")
+    args = parser.parse_args()
+    print(f"Parameters to track are picked from {config.parameters_to_track_file}")
+
+    # Process the input XML file
+    input_xml = args.input_xml
+    process(input_xml)
     print("All done! To open the application with latest data run the following command:")
     print("python3 MultiParamsVisualizer.py")
+    

@@ -8,7 +8,8 @@ import webbrowser
 import ipqr
 import threading
 import time
-
+import argparse
+import extractdata
 # === Load Data ===
 df = pd.read_csv(config.data_file)
 with open(config.param_file, 'r') as f:
@@ -87,13 +88,21 @@ for param in df['Parameter'].unique():
 
 # === App Layout ===
 app.layout = dbc.Container([
-    html.H2("Medical Lab Test Dashboard", className="my-4"),
+    html.H2("Tracker | Vaaheguru", className="my-4"),
     html.Div(graphs, style={"maxHeight": "90vh", "overflowY": "scroll"})
 ], fluid=True)
 
 def run_server():
     app.run(host='0.0.0.0',port=8050, debug=False, use_reloader=False)
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description="Convert XML to JSON and extract data to CSV.")
+    parser.add_argument("input_xml", type=str, nargs="?", help="Path to the input XML file")  # Use nargs="?" to make it optional
+    args = parser.parse_args()
+
+    if args.input_xml:
+        # Process the input XML file
+        input_xml = args.input_xml
+        extractdata.process(input_xml)
       # Start server in a background thread
     threading.Thread(target=run_server, daemon=False).start()
 

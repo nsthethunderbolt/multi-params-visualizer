@@ -41,12 +41,16 @@ pip install pandas numpy plotly dash dash-bootstrap-components xmltodict
 
 ## Usage
 
-1. Run the application (assuming data already exists in files pointed in config.py, if not, go to Step-2)
+1. Run the application (assuming data already exists in files pointed in config.py, if not, go to Step-2, OR pass input_xml path as argument here itself)
 ```bash
 python3 App.py
 ```
+OR
+```bash
+python3 App.py <path_to_input_xml>
+```
 
-2. To process XML data, Use the `extractData.py` script to convert XML data into JSON and CSV formats:
+2. To only process XML data, Use the `extractData.py` script to convert XML data into JSON and CSV formats:
 ```bash
 python3 extractData.py <path_to_input_xml>
 ```
@@ -69,6 +73,8 @@ All data is stored in a CSV file (`stored_data.csv`) with the following columns:
 - Date: The date of the measurement
 - Value: The measured value
 - Parameter: The type of measurement
+
+To add data manually , please add records to configured prepend manual files (data/manual_historical_stored_data.csv by default)
 
 ## Contributing
 
