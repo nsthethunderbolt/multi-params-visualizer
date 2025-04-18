@@ -41,28 +41,19 @@ pip install pandas numpy plotly dash dash-bootstrap-components xmltodict
 
 ## Usage
 
-1. Run the application:
+1. Run the application (assuming data already exists in files pointed in config.py, if not, go to Step-2)
 ```bash
-python MultiParamsVisualizer.py
+python3 App.py
 ```
 
-2. To process XML data:
-   - Use the `extractData.py` script to convert XML data into JSON and CSV formats:
-   ```bash
-   python extractData.py <path_to_input_xml>
-   ```
+2. To process XML data, Use the `extractData.py` script to convert XML data into JSON and CSV formats:
+```bash
+python3 extractData.py <path_to_input_xml>
+```
 
 3. Open the application in your browser:
    - The application will generate interactive graphs for each parameter using Plotly.
-   - A QR code will be displayed for easy access to the application.
-
-4. To add a new data point:
-   - Select the parameter from the dropdown menu
-   - Enter the date in YYYY-MM-DD format
-   - Enter the value
-   - Click "Add Data Point"
-
-5. The data will be automatically saved to `stored_data.csv` in the same directory.
+   - A QR code will be displayed for easy access to the application, on other devices on same network.
 
 ## Data Extraction Logic
 
