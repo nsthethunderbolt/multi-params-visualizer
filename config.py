@@ -1,0 +1,5 @@
+data_file='data/stored_data.csv'
+param_file='data/parameters.json'
+data_file_backup='data/stored_data.csv.bak'
+param_file_backup='data/parameters.json.bak'
+parameters_to_track_file='data/parameters_to_track.txt'

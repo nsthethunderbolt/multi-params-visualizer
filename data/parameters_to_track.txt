@@ -1,0 +1,74 @@
+ALT
+ANC
+AST
+Albumin
+Alkaline Phosphatase
+Anion Gap
+Anisocytosis
+Auto IG%
+BNP
+BUN, Bld
+Bands
+Basophils
+Basophils, Absolute
+Bilirubin, Direct
+C3 Complement
+C4 Complement
+CO2
+Calcium
+Calcium, Ion
+Chloride
+Creatinine
+Cystatin C
+Diagnosis
+Eosinophils
+Eosinophils, Absolute
+Ferritin
+GGT
+Glucose Random
+Hematocrit
+Hemoglobin A1C
+Hgb
+Hgb A %
+Hgb A2 %
+Hgb F %
+High-Sensitivity Troponin I
+Hypochromia
+INR
+Iron
+Lipase
+Lymphocytes
+Lymphocytes, Absolute
+MCH
+MCHC
+MCV
+MPV
+Magnesium
+Microcytes
+Monocytes
+Monocytes, Absolute
+Neutrophils
+Neutrophils, Absolute
+Ovalocytes
+PTT
+Phosphorus
+Platelet
+Polychromasia
+Potassium
+Protime
+RBC
+RDW
+Reticulocytes
+Schistocytes
+Sodium
+T4
+TIBC
+TSH, High Sensitivity
+Target Cells
+Tear Drop Cells
+Total Bilirubin
+Total CK
+Total Protein
+Unsaturated Iron Binding Capacity
+Vit D, 25-Hydroxy
+WBC
