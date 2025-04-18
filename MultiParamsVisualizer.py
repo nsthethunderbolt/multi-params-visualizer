@@ -4,7 +4,7 @@ import os
 from DataStore import DataStore
 from ParamStore import ParamStore
 from UI import UI
-
+import config
 # MultiParamsVisualizer.py
 # Main application class
 # This class initializes the application, loads parameters, and sets up the UI.
@@ -16,8 +16,8 @@ class MultiParamsVisualizer:
         self.script_dir = os.path.dirname(os.path.abspath(__file__))
         
         # File paths using absolute paths
-        data_file = os.path.join(self.script_dir, 'stored_data.csv')
-        params_file = os.path.join(self.script_dir, 'parameters.json')
+        data_file = os.path.join(self.script_dir, config.data_file)
+        params_file = os.path.join(self.script_dir, config.param_file)
         self.ps=ParamStore(params_file)
         # Load parameters
         ret = self.ps.load_parameters()

@@ -7,6 +7,7 @@ import argparse
 import ast
 import pandas as pd
 import shutil
+import config
 header_added = False
 tbody_added = False
 
@@ -18,26 +19,12 @@ def convert_xml_to_json(xml_file_path):
     except Exception:
         raise Exception("Error: Could not parse XML file")
     
-    json_file_path = xml_file_path.replace('.XML', '.json')
-    try:
-        with open(json_file_path, 'w') as json_file:
-            json.dump(parsed_data, json_file, indent=4)
-    except Exception:
-        raise Exception("Error: Could not write JSON file")
-    
-    return json_file_path
+    return parsed_data
 
 
-def extract_to_csv(json_file_path):
+def process_json_to_csv(data):
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    json_file_path = os.path.join(script_dir, json_file_path)
-    op_csv = json_file_path.replace('.json', '.csv')
-    if not os.path.isfile(json_file_path):
-        raise FileNotFoundError(f"The file {json_file_path} does not exist.")
-
-    with open(json_file_path, 'r') as file:
-        data = json.load(file)
-
+    op_csv = os.path.join(script_dir, 'temp.csv')
     def extract_thead_tbody(data, collected=None):
         if collected is None:
             collected = {'thead': [], 'tbody': []}
@@ -89,7 +76,7 @@ def extract_to_csv(json_file_path):
         writer.writerows(rows[0:])  # Write the data rows
     return op_csv
 
-def populate_stored_csv(op_csv, param_list):
+def populate_stored_csv(op_csv, param_list, stored_csv_file, stored_csv_bak_file):
     df = pd.read_csv(op_csv)
     df=df.sort_values(by='Analysis Time')
     df=df[df['Component'].isin(param_list)]
@@ -102,13 +89,13 @@ def populate_stored_csv(op_csv, param_list):
 
     df['Value'] = df['Value'].apply(lambda x: ast.literal_eval(x)['content'] if isinstance(x, str) and 'content' in x else x)
     df = df[df.apply(lambda row: row.count() == 3, axis=1)]
-    shutil.copy('stored_data.csv', 'stored_data.csv.bak')
-    df.to_csv('stored_data.csv', index=False)
+    shutil.copy(stored_csv_file, stored_csv_bak_file)
+    df.to_csv(stored_csv_file, index=False)
 
-def populate_params_json(op_csv, param_list):
+def populate_params_json(op_csv, param_list, params_json_file, params_json_bak_file):
     df = pd.read_csv(op_csv)
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    json_file_path = os.path.join(script_dir, 'parameters.json')
+    json_file_path = os.path.join(script_dir, params_json_file)
     df=df[df['Component'].isin(param_list)]
     df=df.sort_values(by='Component')
     toGetNormalValues=df.groupby(['Component']).first()
@@ -143,7 +130,7 @@ def populate_params_json(op_csv, param_list):
                     parameters[item[0]] = { "unit": "", "min":integer_num,"max": 10000}
             
     json_params={'parameters': parameters}
-    shutil.copy(json_file_path, json_file_path + '.bak')
+    shutil.copy(json_file_path, params_json_bak_file)
     try:
         with open(json_file_path, 'w') as json_file:
             json.dump(json_params, json_file, indent=4)
@@ -168,15 +155,26 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Convert XML to JSON and extract data to CSV.")
     parser.add_argument("input_xml", type=str, help="Path to the input XML file")
     args = parser.parse_args()
-    param_list = read_txt_to_param_list('parameters_to_track.txt')
+    print(f"Parameters to track are picked from {config.parameters_to_track_file}")
+    param_list = read_txt_to_param_list(config.parameters_to_track_file)
+
     # Process the input XML file
     input_xml = args.input_xml
-    op_json = convert_xml_to_json(input_xml)
-    op_csv = extract_to_csv(op_json)
+    extracted_json = convert_xml_to_json(input_xml)
+    op_csv = process_json_to_csv(extracted_json)
     print(f"Data extracted to {op_csv}")
-    populate_params_json(op_csv, param_list)
-    print(f"Parameters are stored in parameters.json and backup in parameters.json.bak")
-    populate_stored_csv(op_csv, param_list)
-    print(f"Data is stored in stored_data.csv and backup in stored_data.csv.bak")
+
+    populate_params_json(op_csv, param_list, config.param_file, config.param_file_backup)
+    print(f"Parameters are stored in {config.param_file} and backup in {config.param_file_backup}")
+
+    populate_stored_csv(op_csv, param_list, config.data_file, config.data_file_backup)
+    print(f"Data is stored in {config.data_file} and backup in {config.data_file_backup}")
+
+    # Remove the temporary csv file
+    if os.path.exists(op_csv):
+        os.remove(op_csv)
+        print(f"Temporary file {op_csv} removed.")
+    else:
+        print(f"Temporary file {op_csv} not found.")
     print("All done! To open the application with latest data run the following command:")
     print("python3 MultiParamsVisualizer.py")

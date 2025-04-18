@@ -17,11 +17,3 @@ class DataStore:
                 return (True,"")
         except Exception as e:
             return (False, f"Error loading data: {str(e)}")
-    def save_data(self):
-        try:
-            df = pd.DataFrame(self.data)
-            df.to_csv(self.data_file, index=False)
-            return (True,"")
-        except Exception as e:
-            return (False, f"Error loading data: {str(e)}")
-            
